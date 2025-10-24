@@ -1,21 +1,22 @@
 public class Lasagna {
-    // TODO: define the 'expectedMinutesInOven()' method
+
+    // !Use constants instead of magic numbers
+    private static final int EXPECTED_MINUTES_IN_OVEN = 40;
+    private static final int PREPARATION_MIN_PER_LAYER = 2;
+
     public int expectedMinutesInOven() {
-        return 40; //min
+        return EXPECTED_MINUTES_IN_OVEN; //min
     }
 
-    // TODO: define the 'remainingMinutesInOven()' method
     public int remainingMinutesInOven(int time_inside) {
-        return 40 - time_inside; //min
+        return expectedMinutesInOven() - time_inside; //min
     }
 
-    // TODO: define the 'preparationTimeInMinutes()' method
     public int preparationTimeInMinutes(int layers) {
-        return layers * 2; // 2min per layer
+        return layers * PREPARATION_MIN_PER_LAYER; // 2min per layer
     }
 
-    // TODO: define the 'totalTimeInMinutes()' method
     public int totalTimeInMinutes(int layers, int time_inside) {
-        return layers * 2 + time_inside; //min
+        return preparationTimeInMinutes(layers) + time_inside; //min
     }
 }
