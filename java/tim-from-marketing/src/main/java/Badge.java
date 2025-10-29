@@ -2,7 +2,10 @@ class Badge {
     public String print(Integer id, String name, String department) {
         StringBuilder sb = new StringBuilder();
 
-        if (id != null) sb.append(String.format("[%d] - ", id));
+        if (id != null)
+            sb.append("[")
+                    .append(id)
+                    .append("] - ");
 
         sb.append(name)
                 .append(" - ")
