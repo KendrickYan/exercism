@@ -1,24 +1,37 @@
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Locale;
 
 class AppointmentScheduler {
+
+    // formatters are immutable and thread safe, so just make them static + final
+    private static final DateTimeFormatter PARSER =
+            DateTimeFormatter.ofPattern("M/dd/yyyy HH:mm:ss");
+    private static final DateTimeFormatter DESCRIPTION_FORMATTER =
+            DateTimeFormatter.ofPattern("EEEE, LLLL d, yyyy, 'at' h:mm a'.'") // enclose literals with single quotes
+            .withLocale(Locale.US); // because my locale does not capitalise am/pm by default
+
     public LocalDateTime schedule(String appointmentDateDescription) {
-        throw new UnsupportedOperationException("Please implement the AppointmentScheduler.schedule() method");
+        return LocalDateTime.parse(appointmentDateDescription, PARSER);
     }
 
     public boolean hasPassed(LocalDateTime appointmentDate) {
-        throw new UnsupportedOperationException("Please implement the AppointmentScheduler.hasPassed() method");
+        return appointmentDate.isBefore(LocalDateTime.now());
     }
 
     public boolean isAfternoonAppointment(LocalDateTime appointmentDate) {
-        throw new UnsupportedOperationException("Please implement the AppointmentScheduler.isAfternoonAppointment() method");
+        int hour = appointmentDate.getHour();
+        return 12 <= hour && hour < 18;
     }
 
     public String getDescription(LocalDateTime appointmentDate) {
-        throw new UnsupportedOperationException("Please implement the AppointmentScheduler.getDescription() method");
+        String formattedDatetime = DESCRIPTION_FORMATTER.format(appointmentDate);
+        return "You have an appointment on " + formattedDatetime;
     }
 
     public LocalDate getAnniversaryDate() {
-        throw new UnsupportedOperationException("Please implement the AppointmentScheduler.getAnniversaryDate() method");
+        int yearNow = LocalDate.now().getYear();
+        return LocalDate.of(yearNow, 9, 15);
     }
 }
