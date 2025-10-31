@@ -1,16 +1,13 @@
 // powershell> javac Runner.java; java Runner
 // cmd> javac Runner.java & java Runner
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Runner {
     public static void main(String[] args) {
-        int[] birdsPerDay = { 2, 5, 0, 7, 4, 1 };
+        List<String> languages = new ArrayList<>();
 
-//        System.out.println(
-//                Arrays.stream(birdsPerDay)
-//        );
-        Arrays.stream(birdsPerDay)
-                .forEach(System.out::println);
+        System.out.println(languages.isEmpty());
     }
 }
