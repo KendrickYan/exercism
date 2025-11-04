@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">10</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.027s</div>
+<div class="counter">0.036s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,146 +61,10 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
-</li>
-<li>
-<a href="#tab1">Tests</a>
+<a href="#tab0">Tests</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="testCenterBack()"></a>
-<h3 class="failures">The onField method returns the correct description of players with shirt numbers 3 and 4</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) FootballMatchReports.onField() method
-	at FootballMatchReports.onField(FootballMatchReports.java:3)
-	at FootballMatchReportsTest.testCenterBack(FootballMatchReportsTest.java:34)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testException()"></a>
-<h3 class="failures">The onField method returns 'invalid' for invalid shirt number</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) FootballMatchReports.onField() method
-	at FootballMatchReports.onField(FootballMatchReports.java:3)
-	at FootballMatchReportsTest.testException(FootballMatchReportsTest.java:72)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testExceptionNegativeNumber()"></a>
-<h3 class="failures">The onField method returns 'invalid' for negative shirt number</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) FootballMatchReports.onField() method
-	at FootballMatchReports.onField(FootballMatchReports.java:3)
-	at FootballMatchReportsTest.testExceptionNegativeNumber(FootballMatchReportsTest.java:79)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testGoal()"></a>
-<h3 class="failures">The onField method returns the correct description of player with shirt number 1</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) FootballMatchReports.onField() method
-	at FootballMatchReports.onField(FootballMatchReports.java:3)
-	at FootballMatchReportsTest.testGoal(FootballMatchReportsTest.java:13)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testLeftBack()"></a>
-<h3 class="failures">The onField method returns the correct description of player with shirt number 2</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) FootballMatchReports.onField() method
-	at FootballMatchReports.onField(FootballMatchReports.java:3)
-	at FootballMatchReportsTest.testLeftBack(FootballMatchReportsTest.java:20)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testLeftWing()"></a>
-<h3 class="failures">The onField method returns the correct description of player with shirt number 9</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) FootballMatchReports.onField() method
-	at FootballMatchReports.onField(FootballMatchReports.java:3)
-	at FootballMatchReportsTest.testLeftWing(FootballMatchReportsTest.java:51)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testMidfielder()"></a>
-<h3 class="failures">The onField method returns the correct description of players with shirt numbers 6, 7 and 8</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) FootballMatchReports.onField() method
-	at FootballMatchReports.onField(FootballMatchReports.java:3)
-	at FootballMatchReportsTest.testMidfielder(FootballMatchReportsTest.java:42)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testRightBack()"></a>
-<h3 class="failures">The onField method returns the correct description of player with shirt number 5</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) FootballMatchReports.onField() method
-	at FootballMatchReports.onField(FootballMatchReports.java:3)
-	at FootballMatchReportsTest.testRightBack(FootballMatchReportsTest.java:27)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testRightWing()"></a>
-<h3 class="failures">The onField method returns the correct description of player with shirt number 11</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) FootballMatchReports.onField() method
-	at FootballMatchReports.onField(FootballMatchReports.java:3)
-	at FootballMatchReportsTest.testRightWing(FootballMatchReportsTest.java:65)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testStriker()"></a>
-<h3 class="failures">The onField method returns the correct description of player with shirt number 10</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) FootballMatchReports.onField() method
-	at FootballMatchReports.onField(FootballMatchReports.java:3)
-	at FootballMatchReportsTest.testStriker(FootballMatchReportsTest.java:58)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -212,64 +76,64 @@
 </tr>
 </thead>
 <tr>
-<td class="failures">The onField method returns the correct description of players with shirt numbers 3 and 4</td>
-<td class="failures">testCenterBack()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The onField method returns the correct description of players with shirt numbers 3 and 4</td>
+<td class="success">testCenterBack()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The onField method returns 'invalid' for invalid shirt number</td>
-<td class="failures">testException()</td>
-<td class="failures">0.019s</td>
-<td class="failures">failed</td>
+<td class="success">The onField method returns 'invalid' for invalid shirt number</td>
+<td class="success">testException()</td>
+<td class="success">0.034s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The onField method returns 'invalid' for negative shirt number</td>
-<td class="failures">testExceptionNegativeNumber()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The onField method returns 'invalid' for negative shirt number</td>
+<td class="success">testExceptionNegativeNumber()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The onField method returns the correct description of player with shirt number 1</td>
-<td class="failures">testGoal()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The onField method returns the correct description of player with shirt number 1</td>
+<td class="success">testGoal()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The onField method returns the correct description of player with shirt number 2</td>
-<td class="failures">testLeftBack()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The onField method returns the correct description of player with shirt number 2</td>
+<td class="success">testLeftBack()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The onField method returns the correct description of player with shirt number 9</td>
-<td class="failures">testLeftWing()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The onField method returns the correct description of player with shirt number 9</td>
+<td class="success">testLeftWing()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The onField method returns the correct description of players with shirt numbers 6, 7 and 8</td>
-<td class="failures">testMidfielder()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The onField method returns the correct description of players with shirt numbers 6, 7 and 8</td>
+<td class="success">testMidfielder()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The onField method returns the correct description of player with shirt number 5</td>
-<td class="failures">testRightBack()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The onField method returns the correct description of player with shirt number 5</td>
+<td class="success">testRightBack()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The onField method returns the correct description of player with shirt number 11</td>
-<td class="failures">testRightWing()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">The onField method returns the correct description of player with shirt number 11</td>
+<td class="success">testRightWing()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The onField method returns the correct description of player with shirt number 10</td>
-<td class="failures">testStriker()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The onField method returns the correct description of player with shirt number 10</td>
+<td class="success">testStriker()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
@@ -281,7 +145,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.7</a> at 1 Nov 2025, 5:21:34 pm</p>
+<a href="http://www.gradle.org">Gradle 8.7</a> at 5 Nov 2025, 8:50:36 am</p>
 </div>
 </div>
 </body>
