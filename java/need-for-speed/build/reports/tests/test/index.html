@@ -26,7 +26,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">16</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -38,7 +38,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.017s</div>
+<div class="counter">0.034s</div>
 <p>duration</p>
 </div>
 </td>
@@ -47,8 +47,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -58,85 +58,13 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
+<a href="#tab0">Packages</a>
 </li>
 <li>
-<a href="#tab1">Packages</a>
-</li>
-<li>
-<a href="#tab2">Classes</a>
+<a href="#tab1">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<ul class="linkList">
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#carCanFinishWithCarThatCanEasilyFinish()">The canFinishRace method returns true when car can finish a race</a>
-</li>
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#carCanFinishWithCarThatCanJustFinish()">The canFinishRace method returns true when car can just finish a race</a>
-</li>
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#carCanFinishWithCarThatCannotFinish()">The canFinishRace method returns false when car cannot finish a race</a>
-</li>
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#carCanFinishWithCarThatJustCannotFinish()">The canFinishRace method returns false when car just cannot finish a race</a>
-</li>
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#driveDoesNotIncreaseDistanceDrivenWhenBatteryDrained()">The distanceDriven method returns the correct distance after driving multiple times</a>
-</li>
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#driveIncreasesDistanceDrivenWithSpeed()">The distanceDriven method returns 5 after driving once</a>
-</li>
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#driveToAlmostDrainBattery()">The batteryDrained method returns false when car battery did not completely drain after driving</a>
-</li>
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#driveUntilBatteryIsDrained()">The batteryDrained method returns true when battery completely drained after driving</a>
-</li>
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#newRemoteControlCarBatteryIsNotDrained()">The batteryDrained method returns false when car never drove</a>
-</li>
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#newRemoteControlCarHasNotDrivenAnyDistance()">The distanceDriven method returns 0 on a new car</a>
-</li>
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#newRemoteControlCarThatCanOnlyDriveOnce()">The batteryDrained method returns false when there's not enough battery</a>
-</li>
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#nitroBatteryCompletelyDrains()">The batteryDrained method returns true when nitro battery completely drained after driving</a>
-</li>
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#nitroCarHasBatteryNotDrained()">The batteryDrained method returns false when nitro car never drove</a>
-</li>
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#nitroCarHasCorrectSpeed()">The distanceDriven method returns the correct distance after driving a nitro car</a>
-</li>
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#nitroCarHasNotDrivenAnyDistance()">The distanceDriven method returns 0 on a new nitro car</a>
-</li>
-<li>
-<a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>.
-<a href="classes/NeedForSpeedTest.html#nitroHasCorrectBatteryDrain()">The batteryDrained method returns false when nitro battery did not completely drain after driving</a>
-</li>
-</ul>
-</div>
-<div id="tab1" class="tab">
 <h2>Packages</h2>
 <table>
 <thead>
@@ -151,19 +79,19 @@
 </thead>
 <tbody>
 <tr>
-<td class="failures">
+<td class="success">
 <a href="packages/default-package.html">default-package</a>
 </td>
 <td>16</td>
-<td>16</td>
 <td>0</td>
-<td>0.017s</td>
-<td class="failures">0%</td>
+<td>0</td>
+<td>0.034s</td>
+<td class="success">100%</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="tab2" class="tab">
+<div id="tab1" class="tab">
 <h2>Classes</h2>
 <table>
 <thead>
@@ -178,14 +106,14 @@
 </thead>
 <tbody>
 <tr>
-<td class="failures">
+<td class="success">
 <a href="classes/NeedForSpeedTest.html">NeedForSpeedTest</a>
 </td>
 <td>16</td>
-<td>16</td>
 <td>0</td>
-<td>0.017s</td>
-<td class="failures">0%</td>
+<td>0</td>
+<td>0.034s</td>
+<td class="success">100%</td>
 </tr>
 </tbody>
 </table>
@@ -198,7 +126,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.7</a> at 5 Nov 2025, 8:57:55 am</p>
+<a href="http://www.gradle.org">Gradle 8.7</a> at 6 Nov 2025, 12:05:05 pm</p>
 </div>
 </div>
 </body>

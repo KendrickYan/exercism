@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">16</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.017s</div>
+<div class="counter">0.034s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,224 +61,10 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
-</li>
-<li>
-<a href="#tab1">Tests</a>
+<a href="#tab0">Tests</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="carCanFinishWithCarThatCanEasilyFinish()"></a>
-<h3 class="failures">The canFinishRace method returns true when car can finish a race</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the NeedForSpeed constructor
-	at NeedForSpeed.&lt;init&gt;(NeedForSpeed.java:3)
-	at NeedForSpeedTest.carCanFinishWithCarThatCanEasilyFinish(NeedForSpeedTest.java:165)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="carCanFinishWithCarThatCanJustFinish()"></a>
-<h3 class="failures">The canFinishRace method returns true when car can just finish a race</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the NeedForSpeed constructor
-	at NeedForSpeed.&lt;init&gt;(NeedForSpeed.java:3)
-	at NeedForSpeedTest.carCanFinishWithCarThatCanJustFinish(NeedForSpeedTest.java:179)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="carCanFinishWithCarThatCannotFinish()"></a>
-<h3 class="failures">The canFinishRace method returns false when car cannot finish a race</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the NeedForSpeed constructor
-	at NeedForSpeed.&lt;init&gt;(NeedForSpeed.java:3)
-	at NeedForSpeedTest.carCanFinishWithCarThatCannotFinish(NeedForSpeedTest.java:207)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="carCanFinishWithCarThatJustCannotFinish()"></a>
-<h3 class="failures">The canFinishRace method returns false when car just cannot finish a race</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the NeedForSpeed constructor
-	at NeedForSpeed.&lt;init&gt;(NeedForSpeed.java:3)
-	at NeedForSpeedTest.carCanFinishWithCarThatJustCannotFinish(NeedForSpeedTest.java:193)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="driveDoesNotIncreaseDistanceDrivenWhenBatteryDrained()"></a>
-<h3 class="failures">The distanceDriven method returns the correct distance after driving multiple times</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the NeedForSpeed constructor
-	at NeedForSpeed.&lt;init&gt;(NeedForSpeed.java:3)
-	at NeedForSpeedTest.driveDoesNotIncreaseDistanceDrivenWhenBatteryDrained(NeedForSpeedTest.java:40)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="driveIncreasesDistanceDrivenWithSpeed()"></a>
-<h3 class="failures">The distanceDriven method returns 5 after driving once</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the NeedForSpeed constructor
-	at NeedForSpeed.&lt;init&gt;(NeedForSpeed.java:3)
-	at NeedForSpeedTest.driveIncreasesDistanceDrivenWithSpeed(NeedForSpeedTest.java:27)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="driveToAlmostDrainBattery()"></a>
-<h3 class="failures">The batteryDrained method returns false when car battery did not completely drain after driving</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the NeedForSpeed constructor
-	at NeedForSpeed.&lt;init&gt;(NeedForSpeed.java:3)
-	at NeedForSpeedTest.driveToAlmostDrainBattery(NeedForSpeedTest.java:80)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="driveUntilBatteryIsDrained()"></a>
-<h3 class="failures">The batteryDrained method returns true when battery completely drained after driving</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the NeedForSpeed constructor
-	at NeedForSpeed.&lt;init&gt;(NeedForSpeed.java:3)
-	at NeedForSpeedTest.driveUntilBatteryIsDrained(NeedForSpeedTest.java:96)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="newRemoteControlCarBatteryIsNotDrained()"></a>
-<h3 class="failures">The batteryDrained method returns false when car never drove</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the NeedForSpeed constructor
-	at NeedForSpeed.&lt;init&gt;(NeedForSpeed.java:3)
-	at NeedForSpeedTest.newRemoteControlCarBatteryIsNotDrained(NeedForSpeedTest.java:58)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="newRemoteControlCarHasNotDrivenAnyDistance()"></a>
-<h3 class="failures">The distanceDriven method returns 0 on a new car</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the NeedForSpeed constructor
-	at NeedForSpeed.&lt;init&gt;(NeedForSpeed.java:3)
-	at NeedForSpeedTest.newRemoteControlCarHasNotDrivenAnyDistance(NeedForSpeedTest.java:16)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="newRemoteControlCarThatCanOnlyDriveOnce()"></a>
-<h3 class="failures">The batteryDrained method returns false when there's not enough battery</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the NeedForSpeed constructor
-	at NeedForSpeed.&lt;init&gt;(NeedForSpeed.java:3)
-	at NeedForSpeedTest.newRemoteControlCarThatCanOnlyDriveOnce(NeedForSpeedTest.java:67)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="nitroBatteryCompletelyDrains()"></a>
-<h3 class="failures">The batteryDrained method returns true when nitro battery completely drained after driving</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) NeedForSpeed.nitro() method
-	at NeedForSpeed.nitro(NeedForSpeed.java:19)
-	at NeedForSpeedTest.nitroBatteryCompletelyDrains(NeedForSpeedTest.java:149)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="nitroCarHasBatteryNotDrained()"></a>
-<h3 class="failures">The batteryDrained method returns false when nitro car never drove</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) NeedForSpeed.nitro() method
-	at NeedForSpeed.nitro(NeedForSpeed.java:19)
-	at NeedForSpeedTest.nitroCarHasBatteryNotDrained(NeedForSpeedTest.java:118)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="nitroCarHasCorrectSpeed()"></a>
-<h3 class="failures">The distanceDriven method returns the correct distance after driving a nitro car</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) NeedForSpeed.nitro() method
-	at NeedForSpeed.nitro(NeedForSpeed.java:19)
-	at NeedForSpeedTest.nitroCarHasCorrectSpeed(NeedForSpeedTest.java:126)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="nitroCarHasNotDrivenAnyDistance()"></a>
-<h3 class="failures">The distanceDriven method returns 0 on a new nitro car</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) NeedForSpeed.nitro() method
-	at NeedForSpeed.nitro(NeedForSpeed.java:19)
-	at NeedForSpeedTest.nitroCarHasNotDrivenAnyDistance(NeedForSpeedTest.java:110)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="nitroHasCorrectBatteryDrain()"></a>
-<h3 class="failures">The batteryDrained method returns false when nitro battery did not completely drain after driving</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) NeedForSpeed.nitro() method
-	at NeedForSpeed.nitro(NeedForSpeed.java:19)
-	at NeedForSpeedTest.nitroHasCorrectBatteryDrain(NeedForSpeedTest.java:135)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -290,100 +76,100 @@
 </tr>
 </thead>
 <tr>
-<td class="failures">The canFinishRace method returns true when car can finish a race</td>
-<td class="failures">carCanFinishWithCarThatCanEasilyFinish()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The canFinishRace method returns true when car can finish a race</td>
+<td class="success">carCanFinishWithCarThatCanEasilyFinish()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The canFinishRace method returns true when car can just finish a race</td>
-<td class="failures">carCanFinishWithCarThatCanJustFinish()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The canFinishRace method returns true when car can just finish a race</td>
+<td class="success">carCanFinishWithCarThatCanJustFinish()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The canFinishRace method returns false when car cannot finish a race</td>
-<td class="failures">carCanFinishWithCarThatCannotFinish()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">The canFinishRace method returns false when car cannot finish a race</td>
+<td class="success">carCanFinishWithCarThatCannotFinish()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The canFinishRace method returns false when car just cannot finish a race</td>
-<td class="failures">carCanFinishWithCarThatJustCannotFinish()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">The canFinishRace method returns false when car just cannot finish a race</td>
+<td class="success">carCanFinishWithCarThatJustCannotFinish()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The distanceDriven method returns the correct distance after driving multiple times</td>
-<td class="failures">driveDoesNotIncreaseDistanceDrivenWhenBatteryDrained()</td>
-<td class="failures">0.010s</td>
-<td class="failures">failed</td>
+<td class="success">The distanceDriven method returns the correct distance after driving multiple times</td>
+<td class="success">driveDoesNotIncreaseDistanceDrivenWhenBatteryDrained()</td>
+<td class="success">0.029s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The distanceDriven method returns 5 after driving once</td>
-<td class="failures">driveIncreasesDistanceDrivenWithSpeed()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">The distanceDriven method returns 5 after driving once</td>
+<td class="success">driveIncreasesDistanceDrivenWithSpeed()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The batteryDrained method returns false when car battery did not completely drain after driving</td>
-<td class="failures">driveToAlmostDrainBattery()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The batteryDrained method returns false when car battery did not completely drain after driving</td>
+<td class="success">driveToAlmostDrainBattery()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The batteryDrained method returns true when battery completely drained after driving</td>
-<td class="failures">driveUntilBatteryIsDrained()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">The batteryDrained method returns true when battery completely drained after driving</td>
+<td class="success">driveUntilBatteryIsDrained()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The batteryDrained method returns false when car never drove</td>
-<td class="failures">newRemoteControlCarBatteryIsNotDrained()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">The batteryDrained method returns false when car never drove</td>
+<td class="success">newRemoteControlCarBatteryIsNotDrained()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The distanceDriven method returns 0 on a new car</td>
-<td class="failures">newRemoteControlCarHasNotDrivenAnyDistance()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">The distanceDriven method returns 0 on a new car</td>
+<td class="success">newRemoteControlCarHasNotDrivenAnyDistance()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The batteryDrained method returns false when there's not enough battery</td>
-<td class="failures">newRemoteControlCarThatCanOnlyDriveOnce()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The batteryDrained method returns false when there's not enough battery</td>
+<td class="success">newRemoteControlCarThatCanOnlyDriveOnce()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The batteryDrained method returns true when nitro battery completely drained after driving</td>
-<td class="failures">nitroBatteryCompletelyDrains()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The batteryDrained method returns true when nitro battery completely drained after driving</td>
+<td class="success">nitroBatteryCompletelyDrains()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The batteryDrained method returns false when nitro car never drove</td>
-<td class="failures">nitroCarHasBatteryNotDrained()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">The batteryDrained method returns false when nitro car never drove</td>
+<td class="success">nitroCarHasBatteryNotDrained()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The distanceDriven method returns the correct distance after driving a nitro car</td>
-<td class="failures">nitroCarHasCorrectSpeed()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">The distanceDriven method returns the correct distance after driving a nitro car</td>
+<td class="success">nitroCarHasCorrectSpeed()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The distanceDriven method returns 0 on a new nitro car</td>
-<td class="failures">nitroCarHasNotDrivenAnyDistance()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The distanceDriven method returns 0 on a new nitro car</td>
+<td class="success">nitroCarHasNotDrivenAnyDistance()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The batteryDrained method returns false when nitro battery did not completely drain after driving</td>
-<td class="failures">nitroHasCorrectBatteryDrain()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The batteryDrained method returns false when nitro battery did not completely drain after driving</td>
+<td class="success">nitroHasCorrectBatteryDrain()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
@@ -395,7 +181,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.7</a> at 5 Nov 2025, 8:57:55 am</p>
+<a href="http://www.gradle.org">Gradle 8.7</a> at 6 Nov 2025, 12:05:05 pm</p>
 </div>
 </div>
 </body>
