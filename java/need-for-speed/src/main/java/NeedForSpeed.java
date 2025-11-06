@@ -30,6 +30,9 @@ class NeedForSpeed {
     public static NeedForSpeed nitro() {
         return new NeedForSpeed(50, 4);
     }
+
+    public int getSpeed() { return speed; }
+    public int getBatteryDrain() { return batteryDrain; }
 }
 
 class RaceTrack {
@@ -41,9 +44,6 @@ class RaceTrack {
     }
 
     public boolean canFinishRace(NeedForSpeed car) {
-        while (!car.batteryDrained()) {
-            car.drive();
-        }
-        return car.distanceDriven() >= distance;
+        return (100 / car.getBatteryDrain()) * car.getSpeed() >= distance;
     }
 }
