@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">12</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.017s</div>
+<div class="counter">0.055s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,172 +61,10 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
-</li>
-<li>
-<a href="#tab1">Tests</a>
+<a href="#tab0">Tests</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="empty()"></a>
-<h3 class="failures">The clean method returns empty string when invoked on empty string</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
-	at SqueakyClean.clean(SqueakyClean.java:3)
-	at SqueakyCleanTest.empty(SqueakyCleanTest.java:13)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="kebabToCamelCase()"></a>
-<h3 class="failures">The clean method converts kebab to camel case after removing a dash</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
-	at SqueakyClean.clean(SqueakyClean.java:3)
-	at SqueakyCleanTest.kebabToCamelCase(SqueakyCleanTest.java:48)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="kebabToCamelCaseAndNumber()"></a>
-<h3 class="failures">The clean method returns a string in camel case after removing a dash and replaces a whitespace</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
-	at SqueakyClean.clean(SqueakyClean.java:3)
-	at SqueakyCleanTest.kebabToCamelCaseAndNumber(SqueakyCleanTest.java:55)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="kebabToCamelCaseAndSpaces()"></a>
-<h3 class="failures">The clean method returns a string in camel case and replaces leading and trailing whitespaces</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
-	at SqueakyClean.clean(SqueakyClean.java:3)
-	at SqueakyCleanTest.kebabToCamelCaseAndSpaces(SqueakyCleanTest.java:62)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="leadingAndTrailingSpaces()"></a>
-<h3 class="failures">The clean method replaces leading and trailing whitespaces with underscores</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
-	at SqueakyClean.clean(SqueakyClean.java:3)
-	at SqueakyCleanTest.leadingAndTrailingSpaces(SqueakyCleanTest.java:41)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="leetspeakToNormalText()"></a>
-<h3 class="failures">The clean method converts leetspeak to normal text after replacing numbers with chars</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
-	at SqueakyClean.clean(SqueakyClean.java:3)
-	at SqueakyCleanTest.leetspeakToNormalText(SqueakyCleanTest.java:69)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="leetspeakToNormalTextWithSpacesAndSpecialCharacters()"></a>
-<h3 class="failures">The clean method converts leetspeak to normal text with spaces and special characters</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
-	at SqueakyClean.clean(SqueakyClean.java:3)
-	at SqueakyCleanTest.leetspeakToNormalTextWithSpacesAndSpecialCharacters(SqueakyCleanTest.java:76)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="singleLetter()"></a>
-<h3 class="failures">The clean method returns the same string when invoked on a single letter string</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
-	at SqueakyClean.clean(SqueakyClean.java:3)
-	at SqueakyCleanTest.singleLetter(SqueakyCleanTest.java:20)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="spaces()"></a>
-<h3 class="failures">The clean method replaces whitespaces with underscores in the middle of the string</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
-	at SqueakyClean.clean(SqueakyClean.java:3)
-	at SqueakyCleanTest.spaces(SqueakyCleanTest.java:34)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="specialCharacters()"></a>
-<h3 class="failures">The clean method removes all characters that are not letters</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
-	at SqueakyClean.clean(SqueakyClean.java:3)
-	at SqueakyCleanTest.specialCharacters(SqueakyCleanTest.java:83)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="specialCharactersAndSpaces()"></a>
-<h3 class="failures">The clean method removes all characters that are not letters and replaces spaces</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
-	at SqueakyClean.clean(SqueakyClean.java:3)
-	at SqueakyCleanTest.specialCharactersAndSpaces(SqueakyCleanTest.java:90)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="string()"></a>
-<h3 class="failures">The clean method returns the same string when invoked on a string of three letters</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) SqueakyClean.clean() method
-	at SqueakyClean.clean(SqueakyClean.java:3)
-	at SqueakyCleanTest.string(SqueakyCleanTest.java:27)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -238,76 +76,76 @@
 </tr>
 </thead>
 <tr>
-<td class="failures">The clean method returns empty string when invoked on empty string</td>
-<td class="failures">empty()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The clean method returns empty string when invoked on empty string</td>
+<td class="success">empty()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The clean method converts kebab to camel case after removing a dash</td>
-<td class="failures">kebabToCamelCase()</td>
-<td class="failures">0.002s</td>
-<td class="failures">failed</td>
+<td class="success">The clean method converts kebab to camel case after removing a dash</td>
+<td class="success">kebabToCamelCase()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The clean method returns a string in camel case after removing a dash and replaces a whitespace</td>
-<td class="failures">kebabToCamelCaseAndNumber()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">The clean method returns a string in camel case after removing a dash and replaces a whitespace</td>
+<td class="success">kebabToCamelCaseAndNumber()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The clean method returns a string in camel case and replaces leading and trailing whitespaces</td>
-<td class="failures">kebabToCamelCaseAndSpaces()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The clean method returns a string in camel case and replaces leading and trailing whitespaces</td>
+<td class="success">kebabToCamelCaseAndSpaces()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The clean method replaces leading and trailing whitespaces with underscores</td>
-<td class="failures">leadingAndTrailingSpaces()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">The clean method replaces leading and trailing whitespaces with underscores</td>
+<td class="success">leadingAndTrailingSpaces()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The clean method converts leetspeak to normal text after replacing numbers with chars</td>
-<td class="failures">leetspeakToNormalText()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">The clean method converts leetspeak to normal text after replacing numbers with chars</td>
+<td class="success">leetspeakToNormalText()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The clean method converts leetspeak to normal text with spaces and special characters</td>
-<td class="failures">leetspeakToNormalTextWithSpacesAndSpecialCharacters()</td>
-<td class="failures">0.009s</td>
-<td class="failures">failed</td>
+<td class="success">The clean method converts leetspeak to normal text with spaces and special characters</td>
+<td class="success">leetspeakToNormalTextWithSpacesAndSpecialCharacters()</td>
+<td class="success">0.049s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The clean method returns the same string when invoked on a single letter string</td>
-<td class="failures">singleLetter()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The clean method returns the same string when invoked on a single letter string</td>
+<td class="success">singleLetter()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The clean method replaces whitespaces with underscores in the middle of the string</td>
-<td class="failures">spaces()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The clean method replaces whitespaces with underscores in the middle of the string</td>
+<td class="success">spaces()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The clean method removes all characters that are not letters</td>
-<td class="failures">specialCharacters()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The clean method removes all characters that are not letters</td>
+<td class="success">specialCharacters()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The clean method removes all characters that are not letters and replaces spaces</td>
-<td class="failures">specialCharactersAndSpaces()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">The clean method removes all characters that are not letters and replaces spaces</td>
+<td class="success">specialCharactersAndSpaces()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">The clean method returns the same string when invoked on a string of three letters</td>
-<td class="failures">string()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">The clean method returns the same string when invoked on a string of three letters</td>
+<td class="success">string()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
@@ -319,7 +157,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.7</a> at 6 Nov 2025, 12:19:26 pm</p>
+<a href="http://www.gradle.org">Gradle 8.7</a> at 7 Nov 2025, 10:38:14 am</p>
 </div>
 </div>
 </body>

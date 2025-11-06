@@ -6,8 +6,11 @@ import java.util.List;
 
 public class Runner {
     public static void main(String[] args) {
-        List<String> languages = new ArrayList<>();
+        String someString = "Hello";
+        char[] toArray = someString.toCharArray();
 
-        System.out.println(languages.isEmpty());
+        for (char ch: toArray) {
+            System.out.println(ch);
+        }
     }
 }
