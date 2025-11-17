@@ -28,7 +28,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">20</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -40,7 +40,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.136s</div>
+<div class="counter">0.051s</div>
 <p>duration</p>
 </div>
 </td>
@@ -49,8 +49,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">4%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -60,98 +60,10 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
-</li>
-<li>
-<a href="#tab1">Classes</a>
+<a href="#tab0">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<ul class="linkList">
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWarriorAlwaysInvulnerable()">A Warrior is never vulnerable</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWarriorClassExists()">The Warrior class is defined</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWarriorIsInstanceOfFighter()">The Warrior class inherits from the Fighter class</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWarriorOverridesGetDamagePointsMethod()">The Warrior class overrides the getDamagePoints(Fighter) method</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWarriorOverridesIsVulnerableMethod()">The Warrior class overrides the isVulnerable method</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWarriorOverridesToStringMethod()">The Warrior class overrides the toString method</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWarriorToString()">The toString method of the Warrior returns the correct description of the fighter</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWarriorsDamagePointsWhenTargetNotVulnerable()">A Warrior deals 6 damage to an invulnerable target</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWarriorsDamagePointsWhenTargetVulnerable()">A Warrior deals 10 damage to a vulnerable target</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWizardClassExists()">The Wizard class is defined</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWizardHasPrepareSpellMethod()">The Wizard class contains the prepareSpell method</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWizardIsInstanceOfFighter()">The Wizard class inherits from the Fighter class</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWizardOverridesGetDamagePointsMethod()">The Wizard class overrides the getDamagePoints(Fighter) method</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWizardOverridesIsVulnerableMethod()">The Wizard class overrides the isVulnerable method</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWizardOverridesToStringMethod()">The Wizard class overrides the toString method</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWizardToString()">The toString method of the Wizard returns the correct description of the fighter</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWizardVulnerable()">A Wizard is not vulnerable when prepared with a spell</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWizardVulnerableByDefault()">A Wizard is vulnerable when not prepared with a spell</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWizardsDamagePoints()">A Wizard deals 3 damage when no spell has been prepared</a>
-</li>
-<li>
-<a href="../classes/FighterTest.html">FighterTest</a>.
-<a href="../classes/FighterTest.html#testWizardsDamagePointsAfterPreparingSpell()">A Wizard deals 12 damage after a spell has been prepared</a>
-</li>
-</ul>
-</div>
-<div id="tab1" class="tab">
 <h2>Classes</h2>
 <table>
 <thead>
@@ -165,14 +77,14 @@
 </tr>
 </thead>
 <tr>
-<td class="failures">
+<td class="success">
 <a href="../classes/FighterTest.html">FighterTest</a>
 </td>
 <td>21</td>
-<td>20</td>
 <td>0</td>
-<td>0.136s</td>
-<td class="failures">4%</td>
+<td>0</td>
+<td>0.051s</td>
+<td class="success">100%</td>
 </tr>
 </table>
 </div>
@@ -184,7 +96,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.7</a> at 7 Nov 2025, 10:45:13 am</p>
+<a href="http://www.gradle.org">Gradle 8.7</a> at 17 Nov 2025, 1:27:05 pm</p>
 </div>
 </div>
 </body>

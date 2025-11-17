@@ -1,208 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FighterTest" tests="21" skipped="0" failures="20" errors="0" timestamp="2025-11-06T23:45:13" hostname="KENDRICK-ACER" time="0.155">
+<testsuite name="FighterTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2025-11-17T05:27:05" hostname="192.168.254.109" time="0.058">
   <properties/>
-  <testcase name="A Wizard is vulnerable when not prepared with a spell" classname="FighterTest" time="0.027">
-    <failure message="java.lang.NullPointerException: Cannot invoke &quot;java.lang.Boolean.booleanValue()&quot; because the return value of &quot;WizardProxy.invokeMethod(String, java.lang.Class[], Object[])&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Boolean.booleanValue()&quot; because the return value of &quot;WizardProxy.invokeMethod(String, java.lang.Class[], Object[])&quot; is null
-	at WizardProxy.isVulnerable(WizardProxy.java:13)
-	at FighterTest.testWizardVulnerableByDefault(FighterTest.java:176)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The toString method of the Warrior returns the correct description of the fighter" classname="FighterTest" time="0.059">
-    <failure message="org.opentest4j.AssertionFailedError: &#13;&#10;expected: &quot;Fighter is a Warrior&quot;&#13;&#10; but was: null" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
-expected: &quot;Fighter is a Warrior&quot;
- but was: null
-	at java.base@21.0.8/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base@21.0.8/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at app//FighterTest.testWarriorToString(FighterTest.java:55)
-	at java.base@21.0.8/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The Wizard class inherits from the Fighter class" classname="FighterTest" time="0.002">
-    <failure message="java.lang.ClassNotFoundException: Wizard" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: Wizard
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
-	at java.base/java.lang.Class.forName0(Native Method)
-	at java.base/java.lang.Class.forName(Class.java:421)
-	at java.base/java.lang.Class.forName(Class.java:412)
-	at FighterTest.testWizardIsInstanceOfFighter(FighterTest.java:118)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The Warrior class overrides the toString method" classname="FighterTest" time="0.008">
-    <failure message="org.opentest4j.AssertionFailedError: Method toString must be created" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method toString must be created
-	at java.base@21.0.8/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base@21.0.8/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at app//FighterTest.testWarriorOverridesToStringMethod(FighterTest.java:42)
-	at java.base@21.0.8/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The Wizard class overrides the isVulnerable method" classname="FighterTest" time="0.002">
-    <failure message="org.opentest4j.AssertionFailedError: Method isVulnerable must be created" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method isVulnerable must be created
-	at java.base@21.0.8/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base@21.0.8/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at app//FighterTest.testWizardOverridesIsVulnerableMethod(FighterTest.java:166)
-	at java.base@21.0.8/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The Warrior class is defined" classname="FighterTest" time="0.002">
-    <failure message="java.lang.AssertionError: Should have a class called Warrior" type="java.lang.AssertionError">java.lang.AssertionError: Should have a class called Warrior
-	at FighterTest.testWarriorClassExists(FighterTest.java:25)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="A Warrior deals 10 damage to a vulnerable target" classname="FighterTest" time="0.002">
-    <failure message="java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;WarriorProxy.invokeMethod(String, java.lang.Class[], Object[])&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;WarriorProxy.invokeMethod(String, java.lang.Class[], Object[])&quot; is null
-	at WarriorProxy.getDamagePoints(WarriorProxy.java:17)
-	at FighterTest.testWarriorsDamagePointsWhenTargetVulnerable(FighterTest.java:93)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The Fighter class does not contain the prepareSpell method" classname="FighterTest" time="0.006"/>
-  <testcase name="A Wizard deals 12 damage after a spell has been prepared" classname="FighterTest" time="0.001">
-    <failure message="java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;WizardProxy.invokeMethod(String, java.lang.Class[], Object[])&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;WizardProxy.invokeMethod(String, java.lang.Class[], Object[])&quot; is null
-	at WizardProxy.getDamagePoints(WizardProxy.java:17)
-	at FighterTest.testWizardsDamagePointsAfterPreparingSpell(FighterTest.java:211)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The Wizard class overrides the getDamagePoints(Fighter) method" classname="FighterTest" time="0.003">
-    <failure message="org.opentest4j.AssertionFailedError: Method getDamagePoints(Fighter) must be created" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method getDamagePoints(Fighter) must be created
-	at java.base@21.0.8/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base@21.0.8/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at app//FighterTest.testWizardOverridesGetDamagePointsMethod(FighterTest.java:193)
-	at java.base@21.0.8/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The toString method of the Wizard returns the correct description of the fighter" classname="FighterTest" time="0.002">
-    <failure message="org.opentest4j.AssertionFailedError: &#13;&#10;expected: &quot;Fighter is a Wizard&quot;&#13;&#10; but was: null" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: 
-expected: &quot;Fighter is a Wizard&quot;
- but was: null
-	at java.base@21.0.8/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base@21.0.8/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at app//FighterTest.testWizardToString(FighterTest.java:140)
-	at java.base@21.0.8/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="A Wizard deals 3 damage when no spell has been prepared" classname="FighterTest" time="0.002">
-    <failure message="java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;WizardProxy.invokeMethod(String, java.lang.Class[], Object[])&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;WizardProxy.invokeMethod(String, java.lang.Class[], Object[])&quot; is null
-	at WizardProxy.getDamagePoints(WizardProxy.java:17)
-	at FighterTest.testWizardsDamagePoints(FighterTest.java:203)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The Warrior class inherits from the Fighter class" classname="FighterTest" time="0.003">
-    <failure message="java.lang.ClassNotFoundException: Warrior" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: Warrior
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
-	at java.base/java.lang.Class.forName0(Native Method)
-	at java.base/java.lang.Class.forName(Class.java:421)
-	at java.base/java.lang.Class.forName(Class.java:412)
-	at FighterTest.testWarriorIsInstanceOfFighter(FighterTest.java:33)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The Warrior class overrides the isVulnerable method" classname="FighterTest" time="0.002">
-    <failure message="org.opentest4j.AssertionFailedError: Method isVulnerable must be created" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method isVulnerable must be created
-	at java.base@21.0.8/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base@21.0.8/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at app//FighterTest.testWarriorOverridesIsVulnerableMethod(FighterTest.java:64)
-	at java.base@21.0.8/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="A Wizard is not vulnerable when prepared with a spell" classname="FighterTest" time="0.002">
-    <failure message="java.lang.NullPointerException: Cannot invoke &quot;java.lang.Boolean.booleanValue()&quot; because the return value of &quot;WizardProxy.invokeMethod(String, java.lang.Class[], Object[])&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Boolean.booleanValue()&quot; because the return value of &quot;WizardProxy.invokeMethod(String, java.lang.Class[], Object[])&quot; is null
-	at WizardProxy.isVulnerable(WizardProxy.java:13)
-	at FighterTest.testWizardVulnerable(FighterTest.java:184)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The Wizard class overrides the toString method" classname="FighterTest" time="0.002">
-    <failure message="org.opentest4j.AssertionFailedError: Method toString must be created" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method toString must be created
-	at java.base@21.0.8/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base@21.0.8/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at app//FighterTest.testWizardOverridesToStringMethod(FighterTest.java:127)
-	at java.base@21.0.8/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The Wizard class is defined" classname="FighterTest" time="0.002">
-    <failure message="java.lang.AssertionError: Should have a class called Wizard" type="java.lang.AssertionError">java.lang.AssertionError: Should have a class called Wizard
-	at FighterTest.testWizardClassExists(FighterTest.java:110)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The Wizard class contains the prepareSpell method" classname="FighterTest" time="0.002">
-    <failure message="org.opentest4j.AssertionFailedError: Method prepareSpell must be created" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method prepareSpell must be created
-	at java.base@21.0.8/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base@21.0.8/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at app//FighterTest.testWizardHasPrepareSpellMethod(FighterTest.java:149)
-	at java.base@21.0.8/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The Warrior class overrides the getDamagePoints(Fighter) method" classname="FighterTest" time="0.003">
-    <failure message="org.opentest4j.AssertionFailedError: Method getDamagePoints(Fighter) must be created" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Method getDamagePoints(Fighter) must be created
-	at java.base@21.0.8/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base@21.0.8/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at app//FighterTest.testWarriorOverridesGetDamagePointsMethod(FighterTest.java:83)
-	at java.base@21.0.8/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base@21.0.8/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="A Warrior deals 6 damage to an invulnerable target" classname="FighterTest" time="0.002">
-    <failure message="java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;WarriorProxy.invokeMethod(String, java.lang.Class[], Object[])&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;WarriorProxy.invokeMethod(String, java.lang.Class[], Object[])&quot; is null
-	at WarriorProxy.getDamagePoints(WarriorProxy.java:17)
-	at FighterTest.testWarriorsDamagePointsWhenTargetNotVulnerable(FighterTest.java:100)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="A Warrior is never vulnerable" classname="FighterTest" time="0.002">
-    <failure message="java.lang.NullPointerException: Cannot invoke &quot;java.lang.Boolean.booleanValue()&quot; because the return value of &quot;WarriorProxy.invokeMethod(String, java.lang.Class[], Object[])&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Boolean.booleanValue()&quot; because the return value of &quot;WarriorProxy.invokeMethod(String, java.lang.Class[], Object[])&quot; is null
-	at WarriorProxy.isVulnerable(WarriorProxy.java:13)
-	at FighterTest.testWarriorAlwaysInvulnerable(FighterTest.java:74)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
+  <testcase name="A Wizard is vulnerable when not prepared with a spell" classname="FighterTest" time="0.034"/>
+  <testcase name="The toString method of the Warrior returns the correct description of the fighter" classname="FighterTest" time="0.002"/>
+  <testcase name="The Wizard class inherits from the Fighter class" classname="FighterTest" time="0.002"/>
+  <testcase name="The Warrior class overrides the toString method" classname="FighterTest" time="0.001"/>
+  <testcase name="The Wizard class overrides the isVulnerable method" classname="FighterTest" time="0.001"/>
+  <testcase name="The Warrior class is defined" classname="FighterTest" time="0.001"/>
+  <testcase name="A Warrior deals 10 damage to a vulnerable target" classname="FighterTest" time="0.002"/>
+  <testcase name="The Fighter class does not contain the prepareSpell method" classname="FighterTest" time="0.002"/>
+  <testcase name="A Wizard deals 12 damage after a spell has been prepared" classname="FighterTest" time="0.0"/>
+  <testcase name="The Wizard class overrides the getDamagePoints(Fighter) method" classname="FighterTest" time="0.001"/>
+  <testcase name="The toString method of the Wizard returns the correct description of the fighter" classname="FighterTest" time="0.001"/>
+  <testcase name="A Wizard deals 3 damage when no spell has been prepared" classname="FighterTest" time="0.001"/>
+  <testcase name="The Warrior class inherits from the Fighter class" classname="FighterTest" time="0.0"/>
+  <testcase name="The Warrior class overrides the isVulnerable method" classname="FighterTest" time="0.0"/>
+  <testcase name="A Wizard is not vulnerable when prepared with a spell" classname="FighterTest" time="0.001"/>
+  <testcase name="The Wizard class overrides the toString method" classname="FighterTest" time="0.001"/>
+  <testcase name="The Wizard class is defined" classname="FighterTest" time="0.0"/>
+  <testcase name="The Wizard class contains the prepareSpell method" classname="FighterTest" time="0.0"/>
+  <testcase name="The Warrior class overrides the getDamagePoints(Fighter) method" classname="FighterTest" time="0.001"/>
+  <testcase name="A Warrior deals 6 damage to an invulnerable target" classname="FighterTest" time="0.0"/>
+  <testcase name="A Warrior is never vulnerable" classname="FighterTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
