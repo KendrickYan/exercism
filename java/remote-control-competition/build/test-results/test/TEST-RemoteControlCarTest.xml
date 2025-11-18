@@ -1,71 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RemoteControlCarTest" tests="8" skipped="0" failures="6" errors="0" timestamp="2025-11-17T05:43:21" hostname="192.168.254.109" time="0.051">
+<testsuite name="RemoteControlCarTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-11-18T07:52:51" hostname="192.168.254.109" time="0.04">
   <properties/>
-  <testcase name="The ExperimentalRemoteControlCar is an instance of the RemoteControlCar interface" classname="RemoteControlCarTest" time="0.033"/>
-  <testcase name="The ProductionRemoteControlCar implements the Comparable interface" classname="RemoteControlCarTest" time="0.007">
-    <failure message="java.lang.AssertionError: &#10;Expecting&#10;  java.lang.Comparable&#10;to be assignable from:&#10;  [ProductionRemoteControlCar]&#10;but was not assignable from:&#10;  [ProductionRemoteControlCar]" type="java.lang.AssertionError">java.lang.AssertionError: 
-Expecting
-  java.lang.Comparable
-to be assignable from:
-  [ProductionRemoteControlCar]
-but was not assignable from:
-  [ProductionRemoteControlCar]
-	at RemoteControlCarTest.ensureCarsAreComparable(RemoteControlCarTest.java:64)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The getDistanceTravelled method of the ProductionRemoteControlCar returns 10 after driving once" classname="RemoteControlCarTest" time="0.002">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the ProductionRemoteControlCar.getDistanceTravelled() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the ProductionRemoteControlCar.getDistanceTravelled() method
-	at ProductionRemoteControlCar.getDistanceTravelled(ProductionRemoteControlCar.java:8)
-	at RemoteControlCarTest.productionCarTravels10UnitsPerDrive(RemoteControlCarTest.java:32)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The getRankedCars returns a list of multiple cars sorted by number of victories" classname="RemoteControlCarTest" time="0.002">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the ProductionRemoteControlCar.setNumberOfVictories() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the ProductionRemoteControlCar.setNumberOfVictories() method
-	at ProductionRemoteControlCar.setNumberOfVictories(ProductionRemoteControlCar.java:16)
-	at RemoteControlCarTest.getCarWithVictories(RemoteControlCarTest.java:69)
-	at RemoteControlCarTest$2.&lt;init&gt;(RemoteControlCarTest.java:94)
-	at RemoteControlCarTest.rankManyCars(RemoteControlCarTest.java:92)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The TestTrack.race method uses the drive method on the remote control car" classname="RemoteControlCarTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) TestTrack.race() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) TestTrack.race() method
-	at TestTrack.race(TestTrack.java:6)
-	at RemoteControlCarTest.race(RemoteControlCarTest.java:53)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="The getDistanceTravelled method of the ExperimentalRemoteControlCar returns 20 after driving once" classname="RemoteControlCarTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the ExperimentalRemoteControlCar.getDistanceTravelled() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the ExperimentalRemoteControlCar.getDistanceTravelled() method
-	at ExperimentalRemoteControlCar.getDistanceTravelled(ExperimentalRemoteControlCar.java:8)
-	at RemoteControlCarTest.experimentalCarTravels20UnitsPerDrive(RemoteControlCarTest.java:42)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
+  <testcase name="The ExperimentalRemoteControlCar is an instance of the RemoteControlCar interface" classname="RemoteControlCarTest" time="0.03"/>
+  <testcase name="The ProductionRemoteControlCar implements the Comparable interface" classname="RemoteControlCarTest" time="0.001"/>
+  <testcase name="The getDistanceTravelled method of the ProductionRemoteControlCar returns 10 after driving once" classname="RemoteControlCarTest" time="0.001"/>
+  <testcase name="The getRankedCars returns a list of multiple cars sorted by number of victories" classname="RemoteControlCarTest" time="0.001"/>
+  <testcase name="The TestTrack.race method uses the drive method on the remote control car" classname="RemoteControlCarTest" time="0.0"/>
+  <testcase name="The getDistanceTravelled method of the ExperimentalRemoteControlCar returns 20 after driving once" classname="RemoteControlCarTest" time="0.0"/>
   <testcase name="The ProductionRemoteControlCar is an instance of the RemoteControlCar interface" classname="RemoteControlCarTest" time="0.0"/>
-  <testcase name="The getRankedCars returns a list of two cars sorted by number of victories" classname="RemoteControlCarTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the ProductionRemoteControlCar.setNumberOfVictories() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the ProductionRemoteControlCar.setNumberOfVictories() method
-	at ProductionRemoteControlCar.setNumberOfVictories(ProductionRemoteControlCar.java:16)
-	at RemoteControlCarTest.getCarWithVictories(RemoteControlCarTest.java:69)
-	at RemoteControlCarTest$1.&lt;init&gt;(RemoteControlCarTest.java:79)
-	at RemoteControlCarTest.rankTwoCars(RemoteControlCarTest.java:77)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
+  <testcase name="The getRankedCars returns a list of two cars sorted by number of victories" classname="RemoteControlCarTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

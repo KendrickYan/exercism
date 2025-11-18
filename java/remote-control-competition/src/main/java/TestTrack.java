@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class TestTrack {
@@ -7,6 +8,8 @@ public class TestTrack {
     }
 
     public static List<ProductionRemoteControlCar> getRankedCars(List<ProductionRemoteControlCar> cars) {
-        throw new UnsupportedOperationException("Please implement the (static) TestTrack.getRankedCars() method");
+        List<ProductionRemoteControlCar> ranked = new ArrayList<>(cars);
+        ranked.sort(null);
+        return ranked;
     }
 }
