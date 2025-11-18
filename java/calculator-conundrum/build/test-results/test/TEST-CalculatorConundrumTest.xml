@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalculatorConundrumTest" tests="10" skipped="0" failures="10" errors="0" timestamp="2025-11-18T08:01:12" hostname="192.168.254.109" time="0.055">
+  <properties/>
+  <testcase name="The calculate method throws IllegalArgumentException when passing empty operation" classname="CalculatorConundrumTest" time="0.039">
+    <failure message="java.lang.AssertionError: &#10;Expecting actual throwable to be an instance of:&#10;  java.lang.IllegalArgumentException&#10;but was:&#10;  java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method&#10;&#9;at CalculatorConundrum.calculate(CalculatorConundrum.java:3)&#10;&#9;at CalculatorConundrumTest.lambda$throwExceptionForAnEmptyStringOperation$2(CalculatorConundrumTest.java:76)&#10;&#9;at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)&#10;&#9;...(83 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expecting actual throwable to be an instance of:
+  java.lang.IllegalArgumentException
+but was:
+  java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method
+	at CalculatorConundrum.calculate(CalculatorConundrum.java:3)
+	at CalculatorConundrumTest.lambda$throwExceptionForAnEmptyStringOperation$2(CalculatorConundrumTest.java:76)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(83 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at CalculatorConundrumTest.throwExceptionForAnEmptyStringOperation(CalculatorConundrumTest.java:76)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The calculate method returns the correct result when dividing small operands" classname="CalculatorConundrumTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method
+	at CalculatorConundrum.calculate(CalculatorConundrum.java:3)
+	at CalculatorConundrumTest.divisionWithSmallOperands(CalculatorConundrumTest.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The calculate method throws IllegalArgumentException when passing null operation" classname="CalculatorConundrumTest" time="0.001">
+    <failure message="java.lang.AssertionError: &#10;Expecting actual throwable to be an instance of:&#10;  java.lang.IllegalArgumentException&#10;but was:&#10;  java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method&#10;&#9;at CalculatorConundrum.calculate(CalculatorConundrum.java:3)&#10;&#9;at CalculatorConundrumTest.lambda$throwExceptionForNullAsOperation$1(CalculatorConundrumTest.java:67)&#10;&#9;at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)&#10;&#9;...(83 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expecting actual throwable to be an instance of:
+  java.lang.IllegalArgumentException
+but was:
+  java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method
+	at CalculatorConundrum.calculate(CalculatorConundrum.java:3)
+	at CalculatorConundrumTest.lambda$throwExceptionForNullAsOperation$1(CalculatorConundrumTest.java:67)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(83 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at CalculatorConundrumTest.throwExceptionForNullAsOperation(CalculatorConundrumTest.java:67)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The calculate method throws IllegalOperationException when dividing by zero" classname="CalculatorConundrumTest" time="0.001">
+    <failure message="java.lang.AssertionError: &#10;Expecting actual throwable to be an instance of:&#10;  IllegalOperationException&#10;but was:&#10;  java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method&#10;&#9;at CalculatorConundrum.calculate(CalculatorConundrum.java:3)&#10;&#9;at CalculatorConundrumTest.lambda$throwExceptionForDivisionByZero$3(CalculatorConundrumTest.java:85)&#10;&#9;at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)&#10;&#9;...(83 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expecting actual throwable to be an instance of:
+  IllegalOperationException
+but was:
+  java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method
+	at CalculatorConundrum.calculate(CalculatorConundrum.java:3)
+	at CalculatorConundrumTest.lambda$throwExceptionForDivisionByZero$3(CalculatorConundrumTest.java:85)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(83 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at CalculatorConundrumTest.throwExceptionForDivisionByZero(CalculatorConundrumTest.java:85)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The calculate method returns the correct result when dividing large operands" classname="CalculatorConundrumTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method
+	at CalculatorConundrum.calculate(CalculatorConundrum.java:3)
+	at CalculatorConundrumTest.divisionWithLargeOperands(CalculatorConundrumTest.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The calculate method returns the correct result when adding small operands" classname="CalculatorConundrumTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method
+	at CalculatorConundrum.calculate(CalculatorConundrum.java:3)
+	at CalculatorConundrumTest.additionWithSmallOperands(CalculatorConundrumTest.java:13)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The calculate method throws IllegalOperationException when passing invalid operation" classname="CalculatorConundrumTest" time="0.003">
+    <failure message="java.lang.AssertionError: &#10;Expecting actual throwable to be an instance of:&#10;  IllegalOperationException&#10;but was:&#10;  java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method&#10;&#9;at CalculatorConundrum.calculate(CalculatorConundrum.java:3)&#10;&#9;at CalculatorConundrumTest.lambda$throwExceptionForUnknownOperation$0(CalculatorConundrumTest.java:58)&#10;&#9;at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)&#10;&#9;...(83 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expecting actual throwable to be an instance of:
+  IllegalOperationException
+but was:
+  java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method
+	at CalculatorConundrum.calculate(CalculatorConundrum.java:3)
+	at CalculatorConundrumTest.lambda$throwExceptionForUnknownOperation$0(CalculatorConundrumTest.java:58)
+	at org.assertj.core.api.ThrowableAssert.catchThrowable(ThrowableAssert.java:63)
+	...(83 remaining lines not displayed - this can be changed with Assertions.setMaxStackTraceElementsDisplayed)
+	at CalculatorConundrumTest.throwExceptionForUnknownOperation(CalculatorConundrumTest.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The calculate method returns the correct result when adding large operands" classname="CalculatorConundrumTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method
+	at CalculatorConundrum.calculate(CalculatorConundrum.java:3)
+	at CalculatorConundrumTest.additionWithLargeOperands(CalculatorConundrumTest.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The calculate method returns the correct result when multiplying small operands" classname="CalculatorConundrumTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method
+	at CalculatorConundrum.calculate(CalculatorConundrum.java:3)
+	at CalculatorConundrumTest.multiplicationWithSmallOperands(CalculatorConundrumTest.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="The calculate method returns the correct result when multiplying large operands" classname="CalculatorConundrumTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the CalculatorConundrum.calculate() method
+	at CalculatorConundrum.calculate(CalculatorConundrum.java:3)
+	at CalculatorConundrumTest.multiplicationWithLargeOperands(CalculatorConundrumTest.java:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
