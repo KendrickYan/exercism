@@ -1,195 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GottaSnatchEmAllTest" tests="21" skipped="0" failures="21" errors="0" timestamp="2025-12-06T01:24:32" hostname="Gooners-MacBook-Pro.local" time="0.027">
+<testsuite name="GottaSnatchEmAllTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2026-01-04T04:18:36" hostname="MacBookPro" time="0.04">
   <properties/>
-  <testcase name="allCards returns a set with all cards when given multiple collections" classname="GottaSnatchEmAllTest" time="0.009">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.allCards() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.allCards() method
-	at GottaSnatchEmAll.allCards(GottaSnatchEmAll.java:23)
-	at GottaSnatchEmAllTest.testAllCardsMultipleCollections(GottaSnatchEmAllTest.java:213)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="canTrade returns false when their collections is empty" classname="GottaSnatchEmAllTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeTheirCollectionsEmpty(GottaSnatchEmAllTest.java:107)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="newCollection returns a set with one card when given a list with one card" classname="GottaSnatchEmAllTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.newCollection() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.newCollection() method
-	at GottaSnatchEmAll.newCollection(GottaSnatchEmAll.java:7)
-	at GottaSnatchEmAllTest.testNewCollectionSingletonList(GottaSnatchEmAllTest.java:26)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="commonCards returns a set with cards present in all given collections" classname="GottaSnatchEmAllTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.commonCards() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.commonCards() method
-	at GottaSnatchEmAll.commonCards(GottaSnatchEmAll.java:19)
-	at GottaSnatchEmAllTest.testCommonCardsMultipleCollections(GottaSnatchEmAllTest.java:189)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="newCollection returns a set with two cards when given a list with two unique cards" classname="GottaSnatchEmAllTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.newCollection() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.newCollection() method
-	at GottaSnatchEmAll.newCollection(GottaSnatchEmAll.java:7)
-	at GottaSnatchEmAllTest.testNewCollectionListWithoutDuplicates(GottaSnatchEmAllTest.java:44)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="canTrade returns false when both collections have the same cards" classname="GottaSnatchEmAllTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeBothCollectionsHaveSameCards(GottaSnatchEmAllTest.java:116)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="canTrade returns true when both collections have at least one card the other doesn't have" classname="GottaSnatchEmAllTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeBothCollectionsMixedCards(GottaSnatchEmAllTest.java:134)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="canTrade returns false when my collection is a non-empty subset of their collection" classname="GottaSnatchEmAllTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeMyCollectionSubsetOfTheirCollection(GottaSnatchEmAllTest.java:143)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="addCard returns true when the collection does not yet contain the new card" classname="GottaSnatchEmAllTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.addCard() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.addCard() method
-	at GottaSnatchEmAll.addCard(GottaSnatchEmAll.java:11)
-	at GottaSnatchEmAllTest.testAddCardReturnsTrueWhenCardNotInCollection(GottaSnatchEmAllTest.java:52)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="commonCards returns an empty set when all cards are different" classname="GottaSnatchEmAllTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.commonCards() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.commonCards() method
-	at GottaSnatchEmAll.commonCards(GottaSnatchEmAll.java:19)
-	at GottaSnatchEmAllTest.testCommonCardsAllCardsDifferent(GottaSnatchEmAllTest.java:165)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="canTrade returns false when both collections are empty" classname="GottaSnatchEmAllTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeBothCollectionsEmpty(GottaSnatchEmAllTest.java:89)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="canTrade returns false when my collections is empty" classname="GottaSnatchEmAllTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeMyCollectionsEmpty(GottaSnatchEmAllTest.java:98)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="canTrade returns true when both collections have unique cards" classname="GottaSnatchEmAllTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeBothCollectionsHaveUniqueCards(GottaSnatchEmAllTest.java:125)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="canTrade returns false when their collection is a non-empty subset of my collection" classname="GottaSnatchEmAllTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeTheirCollectionSubsetOfMyCollection(GottaSnatchEmAllTest.java:152)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="addCard doesn't add the card to the collection when it already contains the new card" classname="GottaSnatchEmAllTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.addCard() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.addCard() method
-	at GottaSnatchEmAll.addCard(GottaSnatchEmAll.java:11)
-	at GottaSnatchEmAllTest.testAddCardShouldNotAddExistingCardToCollection(GottaSnatchEmAllTest.java:79)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="allCards returns a set with all cards when given a single collection" classname="GottaSnatchEmAllTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.allCards() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.allCards() method
-	at GottaSnatchEmAll.allCards(GottaSnatchEmAll.java:23)
-	at GottaSnatchEmAllTest.testAllCardsSingleCollection(GottaSnatchEmAllTest.java:200)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="addCard adds the card to the collection when it is a new card" classname="GottaSnatchEmAllTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.addCard() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.addCard() method
-	at GottaSnatchEmAll.addCard(GottaSnatchEmAll.java:11)
-	at GottaSnatchEmAllTest.testAddCardShouldAddNewCardToCollection(GottaSnatchEmAllTest.java:69)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="newCollection returns an empty set when given an empty list" classname="GottaSnatchEmAllTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.newCollection() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.newCollection() method
-	at GottaSnatchEmAll.newCollection(GottaSnatchEmAll.java:7)
-	at GottaSnatchEmAllTest.testNewCollectionEmptyList(GottaSnatchEmAllTest.java:17)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="newCollection returns a set with one card when given a list with one repeated card" classname="GottaSnatchEmAllTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.newCollection() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.newCollection() method
-	at GottaSnatchEmAll.newCollection(GottaSnatchEmAll.java:7)
-	at GottaSnatchEmAllTest.testNewCollectionListWithDuplicates(GottaSnatchEmAllTest.java:35)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="addCard returns false when the collection already contains the new card" classname="GottaSnatchEmAllTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.addCard() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.addCard() method
-	at GottaSnatchEmAll.addCard(GottaSnatchEmAll.java:11)
-	at GottaSnatchEmAllTest.testAddCardReturnsFalseWhenCardAlreadyInCollection(GottaSnatchEmAllTest.java:60)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="commonCards returns a set with all cards when given a single collection" classname="GottaSnatchEmAllTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.commonCards() method" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.commonCards() method
-	at GottaSnatchEmAll.commonCards(GottaSnatchEmAll.java:19)
-	at GottaSnatchEmAllTest.testCommonCardsSingleCollection(GottaSnatchEmAllTest.java:176)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
+  <testcase name="allCards returns a set with all cards when given multiple collections" classname="GottaSnatchEmAllTest" time="0.029"/>
+  <testcase name="canTrade returns false when their collections is empty" classname="GottaSnatchEmAllTest" time="0.001"/>
+  <testcase name="newCollection returns a set with one card when given a list with one card" classname="GottaSnatchEmAllTest" time="0.001"/>
+  <testcase name="commonCards returns a set with cards present in all given collections" classname="GottaSnatchEmAllTest" time="0.0"/>
+  <testcase name="newCollection returns a set with two cards when given a list with two unique cards" classname="GottaSnatchEmAllTest" time="0.0"/>
+  <testcase name="canTrade returns false when both collections have the same cards" classname="GottaSnatchEmAllTest" time="0.0"/>
+  <testcase name="canTrade returns true when both collections have at least one card the other doesn't have" classname="GottaSnatchEmAllTest" time="0.0"/>
+  <testcase name="canTrade returns false when my collection is a non-empty subset of their collection" classname="GottaSnatchEmAllTest" time="0.0"/>
+  <testcase name="addCard returns true when the collection does not yet contain the new card" classname="GottaSnatchEmAllTest" time="0.0"/>
+  <testcase name="commonCards returns an empty set when all cards are different" classname="GottaSnatchEmAllTest" time="0.001"/>
+  <testcase name="canTrade returns false when both collections are empty" classname="GottaSnatchEmAllTest" time="0.0"/>
+  <testcase name="canTrade returns false when my collections is empty" classname="GottaSnatchEmAllTest" time="0.0"/>
+  <testcase name="canTrade returns true when both collections have unique cards" classname="GottaSnatchEmAllTest" time="0.0"/>
+  <testcase name="canTrade returns false when their collection is a non-empty subset of my collection" classname="GottaSnatchEmAllTest" time="0.0"/>
+  <testcase name="addCard doesn't add the card to the collection when it already contains the new card" classname="GottaSnatchEmAllTest" time="0.0"/>
+  <testcase name="allCards returns a set with all cards when given a single collection" classname="GottaSnatchEmAllTest" time="0.001"/>
+  <testcase name="addCard adds the card to the collection when it is a new card" classname="GottaSnatchEmAllTest" time="0.0"/>
+  <testcase name="newCollection returns an empty set when given an empty list" classname="GottaSnatchEmAllTest" time="0.001"/>
+  <testcase name="newCollection returns a set with one card when given a list with one repeated card" classname="GottaSnatchEmAllTest" time="0.0"/>
+  <testcase name="addCard returns false when the collection already contains the new card" classname="GottaSnatchEmAllTest" time="0.0"/>
+  <testcase name="commonCards returns a set with all cards when given a single collection" classname="GottaSnatchEmAllTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">21</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.020s</div>
+<div class="counter">0.034s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,289 +61,10 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
-</li>
-<li>
-<a href="#tab1">Tests</a>
+<a href="#tab0">Tests</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="testAddCardReturnsFalseWhenCardAlreadyInCollection()"></a>
-<h3 class="failures">addCard returns false when the collection already contains the new card</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.addCard() method
-	at GottaSnatchEmAll.addCard(GottaSnatchEmAll.java:11)
-	at GottaSnatchEmAllTest.testAddCardReturnsFalseWhenCardAlreadyInCollection(GottaSnatchEmAllTest.java:60)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testAddCardReturnsTrueWhenCardNotInCollection()"></a>
-<h3 class="failures">addCard returns true when the collection does not yet contain the new card</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.addCard() method
-	at GottaSnatchEmAll.addCard(GottaSnatchEmAll.java:11)
-	at GottaSnatchEmAllTest.testAddCardReturnsTrueWhenCardNotInCollection(GottaSnatchEmAllTest.java:52)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testAddCardShouldAddNewCardToCollection()"></a>
-<h3 class="failures">addCard adds the card to the collection when it is a new card</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.addCard() method
-	at GottaSnatchEmAll.addCard(GottaSnatchEmAll.java:11)
-	at GottaSnatchEmAllTest.testAddCardShouldAddNewCardToCollection(GottaSnatchEmAllTest.java:69)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testAddCardShouldNotAddExistingCardToCollection()"></a>
-<h3 class="failures">addCard doesn't add the card to the collection when it already contains the new card</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.addCard() method
-	at GottaSnatchEmAll.addCard(GottaSnatchEmAll.java:11)
-	at GottaSnatchEmAllTest.testAddCardShouldNotAddExistingCardToCollection(GottaSnatchEmAllTest.java:79)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testAllCardsMultipleCollections()"></a>
-<h3 class="failures">allCards returns a set with all cards when given multiple collections</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.allCards() method
-	at GottaSnatchEmAll.allCards(GottaSnatchEmAll.java:23)
-	at GottaSnatchEmAllTest.testAllCardsMultipleCollections(GottaSnatchEmAllTest.java:213)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testAllCardsSingleCollection()"></a>
-<h3 class="failures">allCards returns a set with all cards when given a single collection</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.allCards() method
-	at GottaSnatchEmAll.allCards(GottaSnatchEmAll.java:23)
-	at GottaSnatchEmAllTest.testAllCardsSingleCollection(GottaSnatchEmAllTest.java:200)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testCanTradeBothCollectionsEmpty()"></a>
-<h3 class="failures">canTrade returns false when both collections are empty</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeBothCollectionsEmpty(GottaSnatchEmAllTest.java:89)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testCanTradeBothCollectionsHaveSameCards()"></a>
-<h3 class="failures">canTrade returns false when both collections have the same cards</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeBothCollectionsHaveSameCards(GottaSnatchEmAllTest.java:116)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testCanTradeBothCollectionsHaveUniqueCards()"></a>
-<h3 class="failures">canTrade returns true when both collections have unique cards</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeBothCollectionsHaveUniqueCards(GottaSnatchEmAllTest.java:125)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testCanTradeBothCollectionsMixedCards()"></a>
-<h3 class="failures">canTrade returns true when both collections have at least one card the other doesn't have</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeBothCollectionsMixedCards(GottaSnatchEmAllTest.java:134)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testCanTradeMyCollectionSubsetOfTheirCollection()"></a>
-<h3 class="failures">canTrade returns false when my collection is a non-empty subset of their collection</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeMyCollectionSubsetOfTheirCollection(GottaSnatchEmAllTest.java:143)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testCanTradeMyCollectionsEmpty()"></a>
-<h3 class="failures">canTrade returns false when my collections is empty</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeMyCollectionsEmpty(GottaSnatchEmAllTest.java:98)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testCanTradeTheirCollectionSubsetOfMyCollection()"></a>
-<h3 class="failures">canTrade returns false when their collection is a non-empty subset of my collection</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeTheirCollectionSubsetOfMyCollection(GottaSnatchEmAllTest.java:152)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testCanTradeTheirCollectionsEmpty()"></a>
-<h3 class="failures">canTrade returns false when their collections is empty</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.canTrade() method
-	at GottaSnatchEmAll.canTrade(GottaSnatchEmAll.java:15)
-	at GottaSnatchEmAllTest.testCanTradeTheirCollectionsEmpty(GottaSnatchEmAllTest.java:107)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testCommonCardsAllCardsDifferent()"></a>
-<h3 class="failures">commonCards returns an empty set when all cards are different</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.commonCards() method
-	at GottaSnatchEmAll.commonCards(GottaSnatchEmAll.java:19)
-	at GottaSnatchEmAllTest.testCommonCardsAllCardsDifferent(GottaSnatchEmAllTest.java:165)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testCommonCardsMultipleCollections()"></a>
-<h3 class="failures">commonCards returns a set with cards present in all given collections</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.commonCards() method
-	at GottaSnatchEmAll.commonCards(GottaSnatchEmAll.java:19)
-	at GottaSnatchEmAllTest.testCommonCardsMultipleCollections(GottaSnatchEmAllTest.java:189)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testCommonCardsSingleCollection()"></a>
-<h3 class="failures">commonCards returns a set with all cards when given a single collection</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.commonCards() method
-	at GottaSnatchEmAll.commonCards(GottaSnatchEmAll.java:19)
-	at GottaSnatchEmAllTest.testCommonCardsSingleCollection(GottaSnatchEmAllTest.java:176)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testNewCollectionEmptyList()"></a>
-<h3 class="failures">newCollection returns an empty set when given an empty list</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.newCollection() method
-	at GottaSnatchEmAll.newCollection(GottaSnatchEmAll.java:7)
-	at GottaSnatchEmAllTest.testNewCollectionEmptyList(GottaSnatchEmAllTest.java:17)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testNewCollectionListWithDuplicates()"></a>
-<h3 class="failures">newCollection returns a set with one card when given a list with one repeated card</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.newCollection() method
-	at GottaSnatchEmAll.newCollection(GottaSnatchEmAll.java:7)
-	at GottaSnatchEmAllTest.testNewCollectionListWithDuplicates(GottaSnatchEmAllTest.java:35)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testNewCollectionListWithoutDuplicates()"></a>
-<h3 class="failures">newCollection returns a set with two cards when given a list with two unique cards</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.newCollection() method
-	at GottaSnatchEmAll.newCollection(GottaSnatchEmAll.java:7)
-	at GottaSnatchEmAllTest.testNewCollectionListWithoutDuplicates(GottaSnatchEmAllTest.java:44)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="testNewCollectionSingletonList()"></a>
-<h3 class="failures">newCollection returns a set with one card when given a list with one card</h3>
-<span class="code">
-<pre>java.lang.UnsupportedOperationException: Please implement the (static) GottaSnatchEmAll.newCollection() method
-	at GottaSnatchEmAll.newCollection(GottaSnatchEmAll.java:7)
-	at GottaSnatchEmAllTest.testNewCollectionSingletonList(GottaSnatchEmAllTest.java:26)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -355,130 +76,130 @@
 </tr>
 </thead>
 <tr>
-<td class="failures">addCard returns false when the collection already contains the new card</td>
-<td class="failures">testAddCardReturnsFalseWhenCardAlreadyInCollection()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">addCard returns false when the collection already contains the new card</td>
+<td class="success">testAddCardReturnsFalseWhenCardAlreadyInCollection()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">addCard returns true when the collection does not yet contain the new card</td>
-<td class="failures">testAddCardReturnsTrueWhenCardNotInCollection()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">addCard returns true when the collection does not yet contain the new card</td>
+<td class="success">testAddCardReturnsTrueWhenCardNotInCollection()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">addCard adds the card to the collection when it is a new card</td>
-<td class="failures">testAddCardShouldAddNewCardToCollection()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">addCard adds the card to the collection when it is a new card</td>
+<td class="success">testAddCardShouldAddNewCardToCollection()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">addCard doesn't add the card to the collection when it already contains the new card</td>
-<td class="failures">testAddCardShouldNotAddExistingCardToCollection()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">addCard doesn't add the card to the collection when it already contains the new card</td>
+<td class="success">testAddCardShouldNotAddExistingCardToCollection()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">allCards returns a set with all cards when given multiple collections</td>
-<td class="failures">testAllCardsMultipleCollections()</td>
-<td class="failures">0.009s</td>
-<td class="failures">failed</td>
+<td class="success">allCards returns a set with all cards when given multiple collections</td>
+<td class="success">testAllCardsMultipleCollections()</td>
+<td class="success">0.029s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">allCards returns a set with all cards when given a single collection</td>
-<td class="failures">testAllCardsSingleCollection()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">allCards returns a set with all cards when given a single collection</td>
+<td class="success">testAllCardsSingleCollection()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">canTrade returns false when both collections are empty</td>
-<td class="failures">testCanTradeBothCollectionsEmpty()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">canTrade returns false when both collections are empty</td>
+<td class="success">testCanTradeBothCollectionsEmpty()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">canTrade returns false when both collections have the same cards</td>
-<td class="failures">testCanTradeBothCollectionsHaveSameCards()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">canTrade returns false when both collections have the same cards</td>
+<td class="success">testCanTradeBothCollectionsHaveSameCards()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">canTrade returns true when both collections have unique cards</td>
-<td class="failures">testCanTradeBothCollectionsHaveUniqueCards()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">canTrade returns true when both collections have unique cards</td>
+<td class="success">testCanTradeBothCollectionsHaveUniqueCards()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">canTrade returns true when both collections have at least one card the other doesn't have</td>
-<td class="failures">testCanTradeBothCollectionsMixedCards()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">canTrade returns true when both collections have at least one card the other doesn't have</td>
+<td class="success">testCanTradeBothCollectionsMixedCards()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">canTrade returns false when my collection is a non-empty subset of their collection</td>
-<td class="failures">testCanTradeMyCollectionSubsetOfTheirCollection()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">canTrade returns false when my collection is a non-empty subset of their collection</td>
+<td class="success">testCanTradeMyCollectionSubsetOfTheirCollection()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">canTrade returns false when my collections is empty</td>
-<td class="failures">testCanTradeMyCollectionsEmpty()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">canTrade returns false when my collections is empty</td>
+<td class="success">testCanTradeMyCollectionsEmpty()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">canTrade returns false when their collection is a non-empty subset of my collection</td>
-<td class="failures">testCanTradeTheirCollectionSubsetOfMyCollection()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">canTrade returns false when their collection is a non-empty subset of my collection</td>
+<td class="success">testCanTradeTheirCollectionSubsetOfMyCollection()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">canTrade returns false when their collections is empty</td>
-<td class="failures">testCanTradeTheirCollectionsEmpty()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">canTrade returns false when their collections is empty</td>
+<td class="success">testCanTradeTheirCollectionsEmpty()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">commonCards returns an empty set when all cards are different</td>
-<td class="failures">testCommonCardsAllCardsDifferent()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">commonCards returns an empty set when all cards are different</td>
+<td class="success">testCommonCardsAllCardsDifferent()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">commonCards returns a set with cards present in all given collections</td>
-<td class="failures">testCommonCardsMultipleCollections()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">commonCards returns a set with cards present in all given collections</td>
+<td class="success">testCommonCardsMultipleCollections()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">commonCards returns a set with all cards when given a single collection</td>
-<td class="failures">testCommonCardsSingleCollection()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">commonCards returns a set with all cards when given a single collection</td>
+<td class="success">testCommonCardsSingleCollection()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">newCollection returns an empty set when given an empty list</td>
-<td class="failures">testNewCollectionEmptyList()</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
+<td class="success">newCollection returns an empty set when given an empty list</td>
+<td class="success">testNewCollectionEmptyList()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">newCollection returns a set with one card when given a list with one repeated card</td>
-<td class="failures">testNewCollectionListWithDuplicates()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">newCollection returns a set with one card when given a list with one repeated card</td>
+<td class="success">testNewCollectionListWithDuplicates()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">newCollection returns a set with two cards when given a list with two unique cards</td>
-<td class="failures">testNewCollectionListWithoutDuplicates()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">newCollection returns a set with two cards when given a list with two unique cards</td>
+<td class="success">testNewCollectionListWithoutDuplicates()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">newCollection returns a set with one card when given a list with one card</td>
-<td class="failures">testNewCollectionSingletonList()</td>
-<td class="failures">0.001s</td>
-<td class="failures">failed</td>
+<td class="success">newCollection returns a set with one card when given a list with one card</td>
+<td class="success">testNewCollectionSingletonList()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
@@ -490,7 +211,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.7</a> at 6 Dec 2025, 12:24:32 pm</p>
+<a href="http://www.gradle.org">Gradle 8.7</a> at 4 Jan 2026, 12:18:36 pm</p>
 </div>
 </div>
 </body>
