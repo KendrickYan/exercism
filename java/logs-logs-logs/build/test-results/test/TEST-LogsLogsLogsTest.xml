@@ -1,141 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LogsLogsLogsTest" tests="15" skipped="0" failures="15" errors="0" timestamp="2025-12-06T01:28:14" hostname="Gooners-MacBook-Pro.local" time="0.022">
+<testsuite name="LogsLogsLogsTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-01-19T09:46:45" hostname="Gooners-MacBook-Pro.local" time="0.057">
   <properties/>
-  <testcase name="Get short log output for log level INFO" classname="LogsLogsLogsTest" time="0.009">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the BALL#2" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the BALL#2
-	at LogLine.getOutputForShortLog(LogLine.java:11)
-	at LogsLogsLogsTest.getShortLogOutputInfo(LogsLogsLogsTest.java:101)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="Parsing unknown log level ABC" classname="LogsLogsLogsTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the BALLS" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the BALLS
-	at LogLine.getLogLevel(LogLine.java:7)
-	at LogsLogsLogsTest.parseLogLevelAbc(LogsLogsLogsTest.java:69)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="Parsing log level DBG" classname="LogsLogsLogsTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the BALLS" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the BALLS
-	at LogLine.getLogLevel(LogLine.java:7)
-	at LogsLogsLogsTest.parseLogLevelDbg(LogsLogsLogsTest.java:21)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="Parsing log level ERR" classname="LogsLogsLogsTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the BALLS" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the BALLS
-	at LogLine.getLogLevel(LogLine.java:7)
-	at LogsLogsLogsTest.parseLogLevelErr(LogsLogsLogsTest.java:45)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="Parsing log level FTL" classname="LogsLogsLogsTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the BALLS" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the BALLS
-	at LogLine.getLogLevel(LogLine.java:7)
-	at LogsLogsLogsTest.parseLogLevelFtl(LogsLogsLogsTest.java:53)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="Parsing log level INF" classname="LogsLogsLogsTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the BALLS" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the BALLS
-	at LogLine.getLogLevel(LogLine.java:7)
-	at LogsLogsLogsTest.parseLogLevelInf(LogsLogsLogsTest.java:29)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="Parsing log level WRN" classname="LogsLogsLogsTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the BALLS" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the BALLS
-	at LogLine.getLogLevel(LogLine.java:7)
-	at LogsLogsLogsTest.parseLogLevelWrn(LogsLogsLogsTest.java:37)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="Parsing unknown log level XYZ" classname="LogsLogsLogsTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the BALLS" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the BALLS
-	at LogLine.getLogLevel(LogLine.java:7)
-	at LogsLogsLogsTest.parseLogLevelXyz(LogsLogsLogsTest.java:61)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="Get short log output for log level WARNING" classname="LogsLogsLogsTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the BALL#2" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the BALL#2
-	at LogLine.getOutputForShortLog(LogLine.java:11)
-	at LogsLogsLogsTest.getShortLogOutputWarning(LogsLogsLogsTest.java:109)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="Parsing log level TRC" classname="LogsLogsLogsTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the BALLS" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the BALLS
-	at LogLine.getLogLevel(LogLine.java:7)
-	at LogsLogsLogsTest.getLogLevelTrace(LogsLogsLogsTest.java:13)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="Get short log output for log level UNKNOWN" classname="LogsLogsLogsTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the BALL#2" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the BALL#2
-	at LogLine.getOutputForShortLog(LogLine.java:11)
-	at LogsLogsLogsTest.getShortLogOutputUnknown(LogsLogsLogsTest.java:77)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="Get short log output for log level DEBUG" classname="LogsLogsLogsTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the BALL#2" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the BALL#2
-	at LogLine.getOutputForShortLog(LogLine.java:11)
-	at LogsLogsLogsTest.getShortLogOutputDebug(LogsLogsLogsTest.java:93)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="Get short log output for log level ERROR" classname="LogsLogsLogsTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the BALL#2" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the BALL#2
-	at LogLine.getOutputForShortLog(LogLine.java:11)
-	at LogsLogsLogsTest.getShortLogOutputError(LogsLogsLogsTest.java:117)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="Get short log output for log level FATAL" classname="LogsLogsLogsTest" time="0.0">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the BALL#2" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the BALL#2
-	at LogLine.getOutputForShortLog(LogLine.java:11)
-	at LogsLogsLogsTest.getShortLogOutputFatal(LogsLogsLogsTest.java:125)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
-  <testcase name="Get short log output for log level TRACE" classname="LogsLogsLogsTest" time="0.001">
-    <failure message="java.lang.UnsupportedOperationException: Please implement the BALL#2" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Please implement the BALL#2
-	at LogLine.getOutputForShortLog(LogLine.java:11)
-	at LogsLogsLogsTest.getShortLogOutputTrace(LogsLogsLogsTest.java:85)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</failure>
-  </testcase>
+  <testcase name="Get short log output for log level INFO" classname="LogsLogsLogsTest" time="0.043"/>
+  <testcase name="Parsing unknown log level ABC" classname="LogsLogsLogsTest" time="0.002"/>
+  <testcase name="Parsing log level DBG" classname="LogsLogsLogsTest" time="0.0"/>
+  <testcase name="Parsing log level ERR" classname="LogsLogsLogsTest" time="0.0"/>
+  <testcase name="Parsing log level FTL" classname="LogsLogsLogsTest" time="0.0"/>
+  <testcase name="Parsing log level INF" classname="LogsLogsLogsTest" time="0.0"/>
+  <testcase name="Parsing log level WRN" classname="LogsLogsLogsTest" time="0.0"/>
+  <testcase name="Parsing unknown log level XYZ" classname="LogsLogsLogsTest" time="0.0"/>
+  <testcase name="Get short log output for log level WARNING" classname="LogsLogsLogsTest" time="0.001"/>
+  <testcase name="Parsing log level TRC" classname="LogsLogsLogsTest" time="0.001"/>
+  <testcase name="Get short log output for log level UNKNOWN" classname="LogsLogsLogsTest" time="0.0"/>
+  <testcase name="Get short log output for log level DEBUG" classname="LogsLogsLogsTest" time="0.0"/>
+  <testcase name="Get short log output for log level ERROR" classname="LogsLogsLogsTest" time="0.0"/>
+  <testcase name="Get short log output for log level FATAL" classname="LogsLogsLogsTest" time="0.001"/>
+  <testcase name="Get short log output for log level TRACE" classname="LogsLogsLogsTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
