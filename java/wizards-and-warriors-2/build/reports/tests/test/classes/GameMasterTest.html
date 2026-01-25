@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class GameMasterTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class GameMasterTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; GameMasterTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">13</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">13</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.045s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a href="#">Failed tests</a>
+</li>
+<li>
+<a href="#">Tests</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="describeCharacterTravelingToDestinationWithExplicitTravelMethod()"></a>
+<h3 class="failures">Describe a character traveling to a destination</h3>
+<span class="code">
+<pre id="test-message-describeCharacterTravelingToDestinationWithExplicitTravelMethod()">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Character,Destination,TravelMethod)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:27)
+	at GameMasterTest.describeCharacterTravelingToDestinationWithExplicitTravelMethod(GameMasterTest.java:157)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(Character,Destination,TravelMethod)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-describeCharacterTravelingToDestinationWithExplicitTravelMethod()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="describeCharacterTravelingToDestinationWithoutExplicitTravelMethod()"></a>
+<h3 class="failures">Combined description should handle character and destination with default travel method</h3>
+<span class="code">
+<pre id="test-message-describeCharacterTravelingToDestinationWithoutExplicitTravelMethod()">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Character,Destination)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:33)
+	at GameMasterTest.describeCharacterTravelingToDestinationWithoutExplicitTravelMethod(GameMasterTest.java:193)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(Character,Destination)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-describeCharacterTravelingToDestinationWithoutExplicitTravelMethod()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="describeHorseTravelMethod()"></a>
+<h3 class="failures">Describe the travel method: horseback</h3>
+<span class="code">
+<pre id="test-message-describeHorseTravelMethod()">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(TravelMethod)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:23)
+	at GameMasterTest.describeHorseTravelMethod(GameMasterTest.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(TravelMethod)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-describeHorseTravelMethod()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="describeLargeTownDestination()"></a>
+<h3 class="failures">Describe a destination: Ashaba</h3>
+<span class="code">
+<pre id="test-message-describeLargeTownDestination()">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Destination)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:19)
+	at GameMasterTest.describeLargeTownDestination(GameMasterTest.java:86)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(Destination)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-describeLargeTownDestination()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="describeSmallTownDestination()"></a>
+<h3 class="failures">Describe a destination: Tol Honeth</h3>
+<span class="code">
+<pre id="test-message-describeSmallTownDestination()">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Destination)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:19)
+	at GameMasterTest.describeSmallTownDestination(GameMasterTest.java:74)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(Destination)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-describeSmallTownDestination()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="describeWalkingTravelMethod()"></a>
+<h3 class="failures">Describe the travel method: walking</h3>
+<span class="code">
+<pre id="test-message-describeWalkingTravelMethod()">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(TravelMethod)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:23)
+	at GameMasterTest.describeWalkingTravelMethod(GameMasterTest.java:111)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(TravelMethod)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-describeWalkingTravelMethod()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="describeWarriorCharacter()"></a>
+<h3 class="failures">Describe a character by class: Warrior</h3>
+<span class="code">
+<pre id="test-message-describeWarriorCharacter()">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Character)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:15)
+	at GameMasterTest.describeWarriorCharacter(GameMasterTest.java:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(Character)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-describeWarriorCharacter()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="describeWizardCharacter()"></a>
+<h3 class="failures">Describe a character by class: Wizard</h3>
+<span class="code">
+<pre id="test-message-describeWizardCharacter()">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Character)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:15)
+	at GameMasterTest.describeWizardCharacter(GameMasterTest.java:47)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(Character)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-describeWizardCharacter()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="implementedDescribeCharacter()"></a>
+<h3 class="failures">Implemented the describeCharacter method</h3>
+<span class="code">
+<pre id="test-message-implementedDescribeCharacter()">org.opentest4j.AssertionFailedError: Please implement the 'describe(Character character) method
+	at java.base@21.0.9/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base@21.0.9/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at app//GameMasterTest.implementedDescribeCharacter(GameMasterTest.java:15)
+	at java.base@21.0.9/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-implementedDescribeCharacter()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="implementedDescribeCharacterTravelingToDestinationWithExplicitTravelMethod()"></a>
+<h3 class="failures">Implemented the describeCharacterToDestinationByTravelMethod method</h3>
+<span class="code">
+<pre id="test-message-implementedDescribeCharacterTravelingToDestinationWithExplicitTravelMethod()">org.opentest4j.AssertionFailedError: Please implement the 'describe(Character character, Destination destination, TravelMethod travelMethod)' method
+	at java.base@21.0.9/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base@21.0.9/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at app//GameMasterTest.implementedDescribeCharacterTravelingToDestinationWithExplicitTravelMethod(GameMasterTest.java:130)
+	at java.base@21.0.9/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-implementedDescribeCharacterTravelingToDestinationWithExplicitTravelMethod()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="implementedDescribeCharacterTravelingToDestinationWithoutExplicitTravelMethod()"></a>
+<h3 class="failures">Implemented the describeCharacterToDestination method</h3>
+<span class="code">
+<pre id="test-message-implementedDescribeCharacterTravelingToDestinationWithoutExplicitTravelMethod()">org.opentest4j.AssertionFailedError: Please implement the 'describe(Character character, Destination destination)' method
+	at java.base@21.0.9/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base@21.0.9/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at app//GameMasterTest.implementedDescribeCharacterTravelingToDestinationWithoutExplicitTravelMethod(GameMasterTest.java:168)
+	at java.base@21.0.9/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-implementedDescribeCharacterTravelingToDestinationWithoutExplicitTravelMethod()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="implementedDescribeDestination()"></a>
+<h3 class="failures">Implemented the describeDestination method</h3>
+<span class="code">
+<pre id="test-message-implementedDescribeDestination()">org.opentest4j.AssertionFailedError: Please implement the 'describe(Destination destination)' method
+	at java.base@21.0.9/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base@21.0.9/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at app//GameMasterTest.implementedDescribeDestination(GameMasterTest.java:56)
+	at java.base@21.0.9/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-implementedDescribeDestination()">Copy</button>
+</span>
+</div>
+<div class="test">
+<a name="implementedDescribeTravelMethod()"></a>
+<h3 class="failures">Implemented the describeTravelMethod method</h3>
+<span class="code">
+<pre id="test-message-implementedDescribeTravelMethod()">org.opentest4j.AssertionFailedError: Please implement the 'describe(TravelMethod travelMethod)' method
+	at java.base@21.0.9/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base@21.0.9/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at app//GameMasterTest.implementedDescribeTravelMethod(GameMasterTest.java:97)
+	at java.base@21.0.9/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-implementedDescribeTravelMethod()">Copy</button>
+</span>
+</div>
+</div>
+<div class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Describe a character traveling to a destination</td>
+<td class="failures">describeCharacterTravelingToDestinationWithExplicitTravelMethod()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Combined description should handle character and destination with default travel method</td>
+<td class="failures">describeCharacterTravelingToDestinationWithoutExplicitTravelMethod()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Describe the travel method: horseback</td>
+<td class="failures">describeHorseTravelMethod()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Describe a destination: Ashaba</td>
+<td class="failures">describeLargeTownDestination()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Describe a destination: Tol Honeth</td>
+<td class="failures">describeSmallTownDestination()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Describe the travel method: walking</td>
+<td class="failures">describeWalkingTravelMethod()</td>
+<td class="failures">0.009s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Describe a character by class: Warrior</td>
+<td class="failures">describeWarriorCharacter()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Describe a character by class: Wizard</td>
+<td class="failures">describeWizardCharacter()</td>
+<td class="failures">0.002s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Implemented the describeCharacter method</td>
+<td class="failures">implementedDescribeCharacter()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Implemented the describeCharacterToDestinationByTravelMethod method</td>
+<td class="failures">implementedDescribeCharacterTravelingToDestinationWithExplicitTravelMethod()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Implemented the describeCharacterToDestination method</td>
+<td class="failures">implementedDescribeCharacterTravelingToDestinationWithoutExplicitTravelMethod()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Implemented the describeDestination method</td>
+<td class="failures">implementedDescribeDestination()</td>
+<td class="failures">0.001s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Implemented the describeTravelMethod method</td>
+<td class="failures">implementedDescribeTravelMethod()</td>
+<td class="failures">0.024s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 9.2.1</a> at 25 Jan 2026, 3:47:30 pm</p>
+</div>
+</div>
+</body>
+</html>

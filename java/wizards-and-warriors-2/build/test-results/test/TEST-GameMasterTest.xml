@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GameMasterTest" tests="13" skipped="0" failures="13" errors="0" timestamp="2026-01-25T04:47:30.801Z" hostname="Gooners-MacBook-Pro.local" time="0.046">
+  <properties/>
+  <testcase name="Describe the travel method: walking" classname="GameMasterTest" time="0.009">
+    <failure message="java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(TravelMethod)" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(TravelMethod)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:23)
+	at GameMasterTest.describeWalkingTravelMethod(GameMasterTest.java:111)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(TravelMethod)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</failure>
+  </testcase>
+  <testcase name="Implemented the describeTravelMethod method" classname="GameMasterTest" time="0.024">
+    <failure message="org.opentest4j.AssertionFailedError: Please implement the 'describe(TravelMethod travelMethod)' method" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Please implement the 'describe(TravelMethod travelMethod)' method
+	at java.base@21.0.9/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base@21.0.9/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at app//GameMasterTest.implementedDescribeTravelMethod(GameMasterTest.java:97)
+	at java.base@21.0.9/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="Describe a character by class: Wizard" classname="GameMasterTest" time="0.002">
+    <failure message="java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Character)" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Character)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:15)
+	at GameMasterTest.describeWizardCharacter(GameMasterTest.java:47)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(Character)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</failure>
+  </testcase>
+  <testcase name="Describe a character traveling to a destination" classname="GameMasterTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Character,Destination,TravelMethod)" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Character,Destination,TravelMethod)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:27)
+	at GameMasterTest.describeCharacterTravelingToDestinationWithExplicitTravelMethod(GameMasterTest.java:157)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(Character,Destination,TravelMethod)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</failure>
+  </testcase>
+  <testcase name="Describe a destination: Tol Honeth" classname="GameMasterTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Destination)" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Destination)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:19)
+	at GameMasterTest.describeSmallTownDestination(GameMasterTest.java:74)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(Destination)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</failure>
+  </testcase>
+  <testcase name="Implemented the describeDestination method" classname="GameMasterTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: Please implement the 'describe(Destination destination)' method" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Please implement the 'describe(Destination destination)' method
+	at java.base@21.0.9/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base@21.0.9/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at app//GameMasterTest.implementedDescribeDestination(GameMasterTest.java:56)
+	at java.base@21.0.9/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="Implemented the describeCharacter method" classname="GameMasterTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: Please implement the 'describe(Character character) method" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Please implement the 'describe(Character character) method
+	at java.base@21.0.9/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base@21.0.9/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at app//GameMasterTest.implementedDescribeCharacter(GameMasterTest.java:15)
+	at java.base@21.0.9/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="Describe the travel method: horseback" classname="GameMasterTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(TravelMethod)" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(TravelMethod)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:23)
+	at GameMasterTest.describeHorseTravelMethod(GameMasterTest.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(TravelMethod)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</failure>
+  </testcase>
+  <testcase name="Implemented the describeCharacterToDestination method" classname="GameMasterTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: Please implement the 'describe(Character character, Destination destination)' method" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Please implement the 'describe(Character character, Destination destination)' method
+	at java.base@21.0.9/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base@21.0.9/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at app//GameMasterTest.implementedDescribeCharacterTravelingToDestinationWithoutExplicitTravelMethod(GameMasterTest.java:168)
+	at java.base@21.0.9/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="Combined description should handle character and destination with default travel method" classname="GameMasterTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Character,Destination)" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Character,Destination)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:33)
+	at GameMasterTest.describeCharacterTravelingToDestinationWithoutExplicitTravelMethod(GameMasterTest.java:193)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(Character,Destination)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</failure>
+  </testcase>
+  <testcase name="Describe a destination: Ashaba" classname="GameMasterTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Destination)" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Destination)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:19)
+	at GameMasterTest.describeLargeTownDestination(GameMasterTest.java:86)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(Destination)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</failure>
+  </testcase>
+  <testcase name="Implemented the describeCharacterToDestinationByTravelMethod method" classname="GameMasterTest" time="0.001">
+    <failure message="org.opentest4j.AssertionFailedError: Please implement the 'describe(Character character, Destination destination, TravelMethod travelMethod)' method" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Please implement the 'describe(Character character, Destination destination, TravelMethod travelMethod)' method
+	at java.base@21.0.9/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base@21.0.9/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at app//GameMasterTest.implementedDescribeCharacterTravelingToDestinationWithExplicitTravelMethod(GameMasterTest.java:130)
+	at java.base@21.0.9/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="Describe a character by class: Warrior" classname="GameMasterTest" time="0.001">
+    <failure message="java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Character)" type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: java.lang.NoSuchMethodException: GameMaster.describe(Character)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:144)
+	at GameMasterProxy.describe(GameMasterProxy.java:15)
+	at GameMasterTest.describeWarriorCharacter(GameMasterTest.java:34)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoSuchMethodException: GameMaster.describe(Character)
+	at java.base/java.lang.Class.getMethod(Class.java:2397)
+	at ReflectionProxy.invokeMethod(ReflectionProxy.java:139)
+	... 5 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
