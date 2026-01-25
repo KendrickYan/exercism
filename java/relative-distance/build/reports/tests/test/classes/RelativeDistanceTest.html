@@ -29,19 +29,19 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="ignored">
-<div class="counter">6</div>
+<div class="counter">0</div>
 <p>ignored</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.010s</div>
+<div class="counter">0.031s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,59 +61,9 @@
 <div class="tab-container">
 <ul class="tabLinks">
 <li>
-<a href="#">Failed tests</a>
-</li>
-<li>
-<a href="#">Ignored tests</a>
-</li>
-<li>
 <a href="#">Tests</a>
 </li>
 </ul>
-<div class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="testDirectParentChildRelation()"></a>
-<h3 class="failures">Direct parent-child relation</h3>
-<span class="code">
-<pre id="test-message-testDirectParentChildRelation()">java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
-	at RelativeDistance.&lt;init&gt;(RelativeDistance.java:7)
-	at RelativeDistanceTest.testDirectParentChildRelation(RelativeDistanceTest.java:25)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-</pre>
-<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="test-message-testDirectParentChildRelation()">Copy</button>
-</span>
-</div>
-</div>
-<div class="tab">
-<h2>Ignored tests</h2>
-<div class="test">
-<a name="testComplexGraphCousins()"></a>
-<h3 class="skipped">Complex graph, cousins</h3>
-</div>
-<div class="test">
-<a name="testComplexGraphNoShortcutFarRemovedNephew()"></a>
-<h3 class="skipped">Complex graph, no shortcut, far removed nephew</h3>
-</div>
-<div class="test">
-<a name="testComplexGraphSomeShortcutsCrossDownAndCrossUpCousinsSeveralTimesRemovedWithUnrelatedFamilyTree()"></a>
-<h3 class="skipped">Complex graph, some shortcuts, cross-down and cross-up, cousins several times removed, with unrelated family tree</h3>
-</div>
-<div class="test">
-<a name="testSiblingRelationship()"></a>
-<h3 class="skipped">Sibling relationship</h3>
-</div>
-<div class="test">
-<a name="testTwoDegreesOfSeparationGrandchild()"></a>
-<h3 class="skipped">Two degrees of separation, grandchild</h3>
-</div>
-<div class="test">
-<a name="testUnrelatedIndividuals()"></a>
-<h3 class="skipped">Unrelated individuals</h3>
-</div>
-</div>
 <div class="tab">
 <h2>Tests</h2>
 <table>
@@ -126,46 +76,46 @@
 </tr>
 </thead>
 <tr>
-<td class="skipped">Complex graph, cousins</td>
-<td class="skipped">testComplexGraphCousins()</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
+<td class="success">Complex graph, cousins</td>
+<td class="success">testComplexGraphCousins()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="skipped">Complex graph, no shortcut, far removed nephew</td>
-<td class="skipped">testComplexGraphNoShortcutFarRemovedNephew()</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
+<td class="success">Complex graph, no shortcut, far removed nephew</td>
+<td class="success">testComplexGraphNoShortcutFarRemovedNephew()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="skipped">Complex graph, some shortcuts, cross-down and cross-up, cousins several times removed, with unrelated family tree</td>
-<td class="skipped">testComplexGraphSomeShortcutsCrossDownAndCrossUpCousinsSeveralTimesRemovedWithUnrelatedFamilyTree()</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
+<td class="success">Complex graph, some shortcuts, cross-down and cross-up, cousins several times removed, with unrelated family tree</td>
+<td class="success">testComplexGraphSomeShortcutsCrossDownAndCrossUpCousinsSeveralTimesRemovedWithUnrelatedFamilyTree()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Direct parent-child relation</td>
-<td class="failures">testDirectParentChildRelation()</td>
-<td class="failures">0.009s</td>
-<td class="failures">failed</td>
+<td class="success">Direct parent-child relation</td>
+<td class="success">testDirectParentChildRelation()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="skipped">Sibling relationship</td>
-<td class="skipped">testSiblingRelationship()</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
+<td class="success">Sibling relationship</td>
+<td class="success">testSiblingRelationship()</td>
+<td class="success">0.028s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="skipped">Two degrees of separation, grandchild</td>
-<td class="skipped">testTwoDegreesOfSeparationGrandchild()</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
+<td class="success">Two degrees of separation, grandchild</td>
+<td class="success">testTwoDegreesOfSeparationGrandchild()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="skipped">Unrelated individuals</td>
-<td class="skipped">testUnrelatedIndividuals()</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
+<td class="success">Unrelated individuals</td>
+<td class="success">testUnrelatedIndividuals()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
@@ -177,7 +127,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 9.2.1</a> at 22 Jan 2026, 4:08:35 pm</p>
+<a href="https://www.gradle.org">Gradle 9.2.1</a> at 25 Jan 2026, 3:29:58 pm</p>
 </div>
 </div>
 </body>
