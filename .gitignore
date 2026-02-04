@@ -2,4 +2,4 @@
 .idea/
 *.iml
 .venv/
-.DS_Store/
+.DS_Store
