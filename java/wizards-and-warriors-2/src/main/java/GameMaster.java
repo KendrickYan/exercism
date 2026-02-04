@@ -28,8 +28,6 @@ public class GameMaster {
     }
 
     public String describe(Character ch, Destination dest) {
-        return describe(ch) +
-                " You're traveling to your destination by walking." +
-                " " + describe(dest);
+        return describe(ch, dest, TravelMethod.WALKING);
     }
 }
