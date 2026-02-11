@@ -1,6 +1,7 @@
 public class Twofer {
     public String twofer(String name) {
-        if (name == null) name = "you";
-        return "One for " + name + ", one for me.";
+        return name == null ?
+                "One for you, one for me." :
+                "One for " + name + ", one for me.";
     }
 }
