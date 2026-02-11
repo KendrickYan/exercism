@@ -21,7 +21,7 @@ public class TwoferTest {
                 .isEqualTo("One for you, one for me.");
     }
 
-    @Disabled("Remove to run test")
+//    @Disabled("Remove to run test")
     @Test
     @DisplayName("a name given")
     public void aNameGiven() {
@@ -29,7 +29,7 @@ public class TwoferTest {
                 .isEqualTo("One for Alice, one for me.");
     }
 
-    @Disabled("Remove to run test")
+//    @Disabled("Remove to run test")
     @Test
     @DisplayName("another name given")
     public void anotherNameGiven() {
