@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReverseStringTest" tests="6" skipped="1" failures="0" errors="0" timestamp="2026-02-11T05:41:17.425Z" hostname="Gooners-MacBook-Pro.local" time="0.029">
+  <properties/>
+  <testcase name="a word" classname="ReverseStringTest" time="0.025"/>
+  <testcase name="an empty string" classname="ReverseStringTest" time="0.001"/>
+  <testcase name="a capitalized word" classname="ReverseStringTest" time="0.0"/>
+  <testcase name="a sentence with punctuation" classname="ReverseStringTest" time="0.0"/>
+  <testcase name="a palindrome" classname="ReverseStringTest" time="0.0"/>
+  <testcase name="an even-sized word" classname="ReverseStringTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
