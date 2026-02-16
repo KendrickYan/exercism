@@ -61,8 +61,8 @@ def categorize_dish(dish_name: str, dish_ingredients: set[str]) -> str:
     for category, category_ingredients in data_dict.items():
         if category_ingredients.issuperset(dish_ingredients):
             return f'{dish_name}: {category}'
-    else:
-        return 'Category not found!'
+        
+    return 'Category not found!'
 
 
 def tag_special_ingredients(dish: tuple[str, list[str]]) -> tuple[str, set[str]]:
